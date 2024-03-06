@@ -1,3 +1,13 @@
 import { Route } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
 
-export const appRoutes: Route[] = [];
+export const appRoutes: Route[] = [
+  {
+    path: '',
+    component: HomeComponent,
+  },
+  {
+    path: 'search/:game-search',
+    component: HomeComponent,
+  },
+];
