@@ -7,6 +7,7 @@ import { appRoutes } from './app.routes';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
@@ -15,13 +16,16 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { HomeComponent } from './components/home/home.component';
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NxWelcomeComponent,
     SearchBarComponent,
     HomeComponent,
+    DetailsComponent,
+    GameTabsComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +37,7 @@ import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor'
     MatFormFieldModule,
     MatSelectModule,
     GaugeModule.forRoot(),
+    MatIconModule,
   ],
   providers: [
     {

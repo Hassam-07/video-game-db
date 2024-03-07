@@ -1,0 +1,536 @@
+[36m-[39m Generating browser application bundles (phase: setup)...[2K[1G[36m\[39m Generating browser application bundles (phase: setup)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m3.84 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m330.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m229.31 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m77.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m4.47 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:24:38.489Z[39m[37m[22m - Hash: [1m[37m2bbba387e1cd7cb3[39m[37m[22m - Time: [1m[37m10560[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m77.89 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:26:14.180Z[39m[37m[22m - Hash: [1m[37mb9403a7a1757e7f7[39m[37m[22m - Time: [1m[37m8758[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m79.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:30:50.039Z[39m[37m[22m - Hash: [1m[37m95b802b6cf5089e4[39m[37m[22m - Time: [1m[37m3079[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m79.93 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:35:21.668Z[39m[37m[22m - Hash: [1m[37md3c5644bbbee431c[39m[37m[22m - Time: [1m[37m1154[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:38:15.523Z[39m[37m[22m - Hash: [1m[37mff96d7f3d73dad9f[39m[37m[22m - Time: [1m[37m1242[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m19:0-74[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './components/details/details.component' in 'C:\Users\hp\Documents\GitHub\video-game-db\apps\video-game-db\src\app'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.routes.ts[39m[31m[0m:[0m[93m2:0-74[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './components/details/details.component' in 'C:\Users\hp\Documents\GitHub\video-game-db\apps\video-game-db\src\app'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'video-game-db-search-bar' is not a known element:[39m[22m
+[1m[31m1. If 'video-game-db-search-bar' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'video-game-db-search-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <video-game-db-search-bar></video-game-db-search-bar>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [39m[22m[1m[31m[0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './components/details/details.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m import { DetailsComponent } from './components/details/details.component';[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m21[0m:[93m17[0m - [91merror[0m[90m NG1010: [0mValue[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.routes.ts[0m:[93m3[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './components/details/details.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m import { DetailsComponent } from './components/details/details.component';[39m[22m
+[1m[31m[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m2[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'mat-form-field' is not a known element:[39m[22m
+[1m[31m1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m   <mat-form-field>[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m3[0m:[93m5[0m - [39m[22m[1m[31m[91merror[0m[90m NG8001: [0m'mat-label' is not a known element:[39m[22m
+[1m[31m1. If 'mat-label' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-label' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m     <mat-label>Sort</mat-label>[39m[22m
+[1m[31m[7m [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m4[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'mat-select' is not a known element:[39m[22m
+[1m[31m1. If 'mat-select' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-select' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m  4[0m     <mat-select[39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m  5[0m       panelClass="sort-select"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m  7[0m       (selectionChange)="searchGames(sort)"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m  8[0m     >[39m[22m
+[1m[31m[7m   [0m [91m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' since it isn't a known property of 'mat-select'.[39m[22m
+[1m[31m1. If 'mat-select' is an Angular component and it has 'ngModel' [39m[22m[1m[31minput, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-select' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m       [(ngModel)]="sort"[39m[22m
+[1m[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS2322: [0mType 'Event' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m       [(ngModel)]="sort"[39m[22m
+[1m[31m[7m [0m [91m                   ~~~~~[0m[39m[22m
+[1m[31m[7m7[0m       (selectionChange)="searchGames(sort)"[39m[22m
+[1m[31m[7m [0m [91m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m9[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m       <mat-option value="name">Name</mat-option>[39m[22m
+[1m[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [39m[22m[1m[31m[0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m       <mat-option value="-released">Released</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m11[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m       <mat-option value="-added">Added</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular co[39m[22m[1m[31mmponent, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <mat-option value="-created">Created</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m13[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       <mat-option value="-updated">Updated</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       <mat-option value="-rating">Rating</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video[39m[22m[1m[31m-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m15[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m       <mat-option value="metacritic">Metacritic</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/search-bar/search-bar.component.html[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m NG8003: [0mNo directive found with exportAs 'ngForm'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m   <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/search-bar/search-bar.component.ts[0m:[93m7[0m:[93m16[0m[39m[22m
+[1m[31m    [7m7[0m   templateUrl: './search-bar.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component SearchBarComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:38:50.817Z[39m[37m[22m - Hash: [1m[37medc49666e592f0c8[39m[37m[22m - Time: [1m[37m759[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m19:0-74[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './components/details/details.component' in 'C:\Users\hp\Documents\GitHub\video-game-db\apps\video-game-db\src\app'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.routes.ts[39m[31m[0m:[0m[93m2:0-74[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './components/details/details.component' in 'C:\Users\hp\Documents\GitHub\video-game-db\apps\video-game-db\src\app'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'video-game-db-search-bar' is not a known element:[39m[22m
+[1m[31m1. If 'video-game-db-search-bar' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'video-game-db-search-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <video-game-db-search-bar></video-game-db-search-bar>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [39m[22m[1m[31m[0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './components/details/details.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m import { DetailsComponent } from './components/details/details.component';[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m21[0m:[93m17[0m - [91merror[0m[90m NG1010: [0mValue[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.routes.ts[0m:[93m3[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './components/details/details.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m import { DetailsComponent } from './components/details/details.component';[39m[22m
+[1m[31m[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m2[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'mat-form-field' is not a known element:[39m[22m
+[1m[31m1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m   <mat-form-field>[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m3[0m:[93m5[0m - [39m[22m[1m[31m[91merror[0m[90m NG8001: [0m'mat-label' is not a known element:[39m[22m
+[1m[31m1. If 'mat-label' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-label' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m     <mat-label>Sort</mat-label>[39m[22m
+[1m[31m[7m [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m4[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'mat-select' is not a known element:[39m[22m
+[1m[31m1. If 'mat-select' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-select' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m  4[0m     <mat-select[39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m  5[0m       panelClass="sort-select"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m  7[0m       (selectionChange)="searchGames(sort)"[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m  8[0m     >[39m[22m
+[1m[31m[7m   [0m [91m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'ngModel' since it isn't a known property of 'mat-select'.[39m[22m
+[1m[31m1. If 'mat-select' is an Angular component and it has 'ngModel' [39m[22m[1m[31minput, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-select' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m       [(ngModel)]="sort"[39m[22m
+[1m[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS2322: [0mType 'Event' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m       [(ngModel)]="sort"[39m[22m
+[1m[31m[7m [0m [91m                   ~~~~~[0m[39m[22m
+[1m[31m[7m7[0m       (selectionChange)="searchGames(sort)"[39m[22m
+[1m[31m[7m [0m [91m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m9[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m       <mat-option value="name">Name</mat-option>[39m[22m
+[1m[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [39m[22m[1m[31m[0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m       <mat-option value="-released">Released</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m11[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m       <mat-option value="-added">Added</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular co[39m[22m[1m[31mmponent, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <mat-option value="-created">Created</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m13[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       <mat-option value="-updated">Updated</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       <mat-option value="-rating">Rating</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video[39m[22m[1m[31m-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.html[0m:[93m15[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'mat-option' is not a known element:[39m[22m
+[1m[31m1. If 'mat-option' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'mat-option' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m       <mat-option value="metacritic">Metacritic</mat-option>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m9[0m:[93m16[0m[39m[22m
+[1m[31m    [7m9[0m   templateUrl: './home.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component HomeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/search-bar/search-bar.component.html[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m NG8003: [0mNo directive found with exportAs 'ngForm'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m   <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/video-game-db/src/app/components/search-bar/search-bar.component.ts[0m:[93m7[0m:[93m16[0m[39m[22m
+[1m[31m    [7m7[0m   templateUrl: './search-bar.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component SearchBarComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m41.15 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:39:59.660Z[39m[37m[22m - Hash: [1m[37md1443476c46ec466[39m[37m[22m - Time: [1m[37m1091[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m42.12 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-07T07:43:47.633Z[39m[37m[22m - Hash: [1m[37md018b7af7975cd4e[39m[37m[22m - Time: [1m[37m1390[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m

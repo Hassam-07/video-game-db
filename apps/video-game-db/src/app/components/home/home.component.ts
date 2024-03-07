@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { Game, APIResponse } from '../../models';
-import { HttpService } from 'apps/video-game-db/src/app/services/http.service';
+import { HttpService } from '../../services/http.service';
 
 @Component({
   selector: 'video-game-db-home',
