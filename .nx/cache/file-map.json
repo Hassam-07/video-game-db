@@ -12,6 +12,11 @@
     "@angular/platform-browser": "~16.0.0",
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
+    "@ngrx/component-store": "~16.0.0",
+    "@ngrx/effects": "~16.0.0",
+    "@ngrx/entity": "~16.0.0",
+    "@ngrx/router-store": "~16.0.0",
+    "@ngrx/store": "~16.0.0",
     "@nx/angular": "16.3.2",
     "angular-gauge": "^5.0.0",
     "rxjs": "~7.8.0",
@@ -26,6 +31,8 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "~16.0.0",
     "@angular/language-service": "~16.0.0",
+    "@ngrx/schematics": "~16.0.0",
+    "@ngrx/store-devtools": "~16.0.0",
     "@nx/cypress": "16.3.2",
     "@nx/eslint-plugin": "16.3.2",
     "@nx/jest": "16.3.2",
@@ -42,6 +49,7 @@
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
+    "jasmine-marbles": "~0.9.1",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.1.0",
@@ -65,7 +73,64 @@
       },
       {
         "file": "apps/video-game-db/project.json",
-        "hash": "13647818681608180577"
+        "hash": "15619901910589479463"
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.actions.ts",
+        "hash": "4533306144955555128",
+        "deps": [
+          "npm:@ngrx/store"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.effects.spec.ts",
+        "hash": "12944724423756677651",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@ngrx/effects",
+          "npm:@ngrx/store",
+          "npm:jasmine-marbles",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.effects.ts",
+        "hash": "13675987099316305769",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@ngrx/effects",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.models.ts",
+        "hash": "9775138879944618613"
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.reducer.spec.ts",
+        "hash": "13061682882931395116",
+        "deps": [
+          "npm:@ngrx/store"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts",
+        "hash": "14976403609092748413",
+        "deps": [
+          "npm:@ngrx/entity",
+          "npm:@ngrx/store"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.selectors.spec.ts",
+        "hash": "9386871820686529432"
+      },
+      {
+        "file": "apps/video-game-db/src/app/+state/media-list/media-list.selectors.ts",
+        "hash": "223409251795523712",
+        "deps": [
+          "npm:@ngrx/store"
+        ]
       },
       {
         "file": "apps/video-game-db/src/app/app.component.html",
@@ -92,7 +157,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/app.module.ts",
-        "hash": "10174157427355741663",
+        "hash": "5343067014463671178",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/platform-browser",
@@ -100,7 +165,10 @@
           "npm:@angular/forms",
           "npm:@angular/common",
           "npm:@angular/material",
-          "npm:angular-gauge"
+          "npm:angular-gauge",
+          "npm:@ngrx/store",
+          "npm:@ngrx/effects",
+          "npm:@ngrx/store-devtools"
         ]
       },
       {
@@ -111,12 +179,58 @@
         ]
       },
       {
+        "file": "apps/video-game-db/src/app/components/details/details.component.html",
+        "hash": "3714299208126782615"
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/details/details.component.scss",
+        "hash": "17209611388542046595"
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/details/details.component.spec.ts",
+        "hash": "16186512685991416432",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/details/details.component.ts",
+        "hash": "4259830697479976634",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/router",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.html",
+        "hash": "16318283024440842206"
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.scss",
+        "hash": "16744635595305574362"
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.spec.ts",
+        "hash": "16524738593944282792",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.ts",
+        "hash": "9144502440553257260",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
         "file": "apps/video-game-db/src/app/components/home/home.component.html",
-        "hash": "1238077667699710590"
+        "hash": "15454656677923955200"
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.scss",
-        "hash": "15571086078910198274"
+        "hash": "3854732551152363525"
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.spec.ts",
@@ -127,11 +241,12 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.ts",
-        "hash": "3610690836101966861",
+        "hash": "7148652934910006294",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/router",
-          "npm:rxjs"
+          "npm:rxjs",
+          "npm:@ngrx/store"
         ]
       },
       {
@@ -169,7 +284,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/interceptors/http-headers.interceptor.ts",
-        "hash": "17492732784195355746",
+        "hash": "8152778104802839743",
         "deps": [
           "npm:@angular/common",
           "npm:@angular/core",
@@ -300,56 +415,6 @@
       {
         "file": "apps/video-game-db/tsconfig.spec.json",
         "hash": "2927375835638640771"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/details/details.component.css",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/details/details.component.html",
-        "hash": "3714299208126782615"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/details/details.component.spec.ts",
-        "hash": "16186512685991416432",
-        "deps": [
-          "npm:@angular/core"
-        ]
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/details/details.component.ts",
-        "hash": "4259830697479976634",
-        "deps": [
-          "npm:@angular/core",
-          "npm:@angular/router",
-          "npm:rxjs"
-        ]
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/details/details.component.scss",
-        "hash": "17209611388542046595"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.html",
-        "hash": "16318283024440842206"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.scss",
-        "hash": "16744635595305574362"
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.spec.ts",
-        "hash": "16524738593944282792",
-        "deps": [
-          "npm:@angular/core"
-        ]
-      },
-      {
-        "file": "apps/video-game-db/src/app/components/game-tabs/game-tabs.component.ts",
-        "hash": "9144502440553257260",
-        "deps": [
-          "npm:@angular/core"
-        ]
       }
     ],
     "video-game-db-e2e": [

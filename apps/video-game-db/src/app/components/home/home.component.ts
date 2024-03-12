@@ -1,8 +1,11 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 import { Game, APIResponse } from '../../models';
 import { HttpService } from '../../services/http.service';
+import { GamePageActions } from '../../+state/media-list/media-list.actions';
+import { Store } from '@ngrx/store';
+import { selectGames } from '../../+state/media-list/media-list.selectors';
 
 @Component({
   selector: 'video-game-db-home',
@@ -15,14 +18,18 @@ export class HomeComponent implements OnInit, OnDestroy {
   public games!: Array<Game>;
   private routeSub!: Subscription;
   private gameSub!: Subscription;
+  games$!: Observable<any>;
 
   constructor(
     private httpService: HttpService,
+    private store: Store,
     private router: Router,
     private activatedRoute: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
+    this.games$ = this.store.select(selectGames);
+    this.store.dispatch(GamePageActions.loadGames());
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       if (params['game-search']) {
         this.searchGames('metacrit', params['game-search']);
@@ -33,12 +40,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   searchGames(sort: string, search?: string): void {
-    this.gameSub = this.httpService
-      .getGameList(sort, search)
-      .subscribe((gameList: APIResponse<Game>) => {
-        this.games = gameList.results;
-        console.log(gameList);
-      });
+    this.store.dispatch(GamePageActions.searchGames({ sort, search }));
+    // this.gameSub = this.httpService
+    //   .getGameList(sort, search)
+    //   .subscribe((gameList: APIResponse<Game>) => {
+    //     this.games = gameList.results;
+    //     console.log(gameList);
+    //   });
   }
 
   openGameDetails(id: string): void {

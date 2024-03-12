@@ -18,6 +18,15 @@ import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
 import { DetailsComponent } from './components/details/details.component';
 import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import * as fromMediaList from './+state/media-list/media-list.reducer';
+import { MediaListEffects } from './+state/media-list/media-list.effects';
+import {
+  GAME_FEATURE_KEY,
+  gameReducer,
+} from './+state/media-list/media-list.reducer';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   declarations: [
@@ -38,6 +47,14 @@ import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
     MatSelectModule,
     GaugeModule.forRoot(),
     MatIconModule,
+    // EffectsModule.forRoot([MediaListEffects]),
+    // StoreModule.forRoot({ games: gameReducer }),
+    StoreModule,
+    StoreModule.forRoot({}),
+    StoreModule.forFeature(GAME_FEATURE_KEY, gameReducer),
+    EffectsModule.forFeature([MediaListEffects]),
+    EffectsModule.forRoot([MediaListEffects]),
+    StoreDevtoolsModule.instrument({ maxAge: 25 }),
   ],
   providers: [
     {

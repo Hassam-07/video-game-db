@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run video-game-db:serve --o",
+    "startTime": "2024-03-11T13:43:29.683Z",
+    "endTime": "2024-03-11T16:19:56.656Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "video-game-db:serve:development",
+      "target": "serve",
+      "projectName": "video-game-db",
+      "hash": "16143176575130363380",
+      "startTime": "2024-03-11T13:43:29.693Z",
+      "endTime": "2024-03-11T16:19:56.655Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

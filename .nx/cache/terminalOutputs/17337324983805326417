@@ -1,0 +1,1115 @@
+[36m-[39m Generating browser application bundles (phase: setup)...[2K[1G[36m\[39m Generating browser application bundles (phase: setup)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m3.89 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m330.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m314.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m70.24 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m4.59 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T06:30:15.921Z[39m[37m[22m - Hash: [1m[37mf460840804c9d784[39m[37m[22m - Time: [1m[37m31300[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T08:48:22.849Z[39m[37m[22m - Hash: [1m[37m10af5b889da099a8[39m[37m[22m - Time: [1m[37m1268[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m23[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module './+state/media-list.reducer' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m import * as fromMediaList from './+state/media-list.reducer';[39m[22m
+[1m[31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m24[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './+state/media-list.effects' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m import { MediaListEffects } from './+state/media-list.effects';[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m70.24 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T08:48:39.910Z[39m[37m[22m - Hash: [1m[37m04a8abf23bdb6d4b[39m[37m[22m - Time: [1m[37m1321[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m23[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module './+state/media-list.reducer' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m import * as fromMediaList from './+state/media-list.reducer';[39m[22m
+[1m[31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m24[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './+state/media-list.effects' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m24[0m import { MediaListEffects } from './+state/media-list.effects';[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m70.24 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T08:48:47.423Z[39m[37m[22m - Hash: [1m[37me2875812c261b9ff[39m[37m[22m - Time: [1m[37m326[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m\[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m4.04 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m77.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T08:50:45.084Z[39m[37m[22m - Hash: [1m[37m648c15dbd5296876[39m[37m[22m - Time: [1m[37m2984[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m-[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:02:11.878Z[39m[37m[22m - Hash: [1m[37m9b211ca8f9c4f177[39m[37m[22m - Time: [1m[37m1034[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.56 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:06:22.005Z[39m[37m[22m - Hash: [1m[37m4fec4494472142fa[39m[37m[22m - Time: [1m[37m1028[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m13:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[39m[31m[0m:[0m[93m10:56-86[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[39m[31m[0m:[0m[93m14:8-45[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[39m[31m[0m:[0m[93m19:8-45[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/sr[39m[22m[1m[31mc/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m19[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m30[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m30[0m   on(MediaListActions.initMediaList, (state) => ({[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m35[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m35[0m   on(Media[39m[22m[1m[31mListActions.loadMediaListSuccess, (state, { mediaList }) =>[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m38[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m   on(MediaListActions.loadMediaListFailure, (state, { error }) => ({[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[36m-[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m4.03 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:07:33.075Z[39m[37m[22m - Hash: [1m[37m315da620832eb6ce[39m[37m[22m - Time: [1m[37m1436[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m13:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m[39m[22m[1m[31m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m19[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Game'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   games: Game[];[39m[22m
+[1m[31m[7m [0m [91m         ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m14[0m:[93m6[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m   on(GameActions.gamesLoaded, (state, { games }) => ({[39m[22m
+[1m[31m[7m  [0m [91m     ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS23[39m[22m[1m[31m39: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.64 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:10:12.087Z[39m[37m[22m - Hash: [1m[37m3a2796cee237411d[39m[37m[22m - Time: [1m[37m885[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m13:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, gamesLoaded, loadGames)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.actions.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'createActionGroup'. Did you mean 'createAction'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m export const GameApiActions = createActionGroup({[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'i[39m[22m[1m[31mnitMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m19[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Game'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   games: Game[];[39m[22m
+[1m[31m[7m [0m [91m         ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m14[0m:[93m6[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m   on(GameActions.gamesLoaded, (state, { games }) => ({[39m[22m
+[1m[31m[7m  [0m [91m     ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEA[39m[22m[1m[31mTURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:12:09.509Z[39m[37m[22m - Hash: [1m[37m476e5bde456b422e[39m[37m[22m - Time: [1m[37m755[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m13:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effec[39m[22m[1m[31mts.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m19[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Game'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   games: Game[];[39m[22m
+[1m[31m[7m [0m [91m         ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.reducer.ts[0m:[93m14[0m:[93m6[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m   on(GameActions.gamesLoaded, (state, { games }) => ({[39m[22m
+[1m[31m[7m  [0m [91m     ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m[39m[22m[1m[31m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.76 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:12:40.580Z[39m[37m[22m - Hash: [1m[37md0a9835469220964[39m[37m[22m - Time: [1m[37m725[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m9:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m13:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effec[39m[22m[1m[31mts.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m19[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m19[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:14:19.574Z[39m[37m[22m - Hash: [1m[37m9254a846d9cdf6bf[39m[37m[22m - Time: [1m[37m558[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m15:62-92[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'initMediaList' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m15:114-151[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListSuccess' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m19:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'Observable<unknown>' is not assignable to type 'EffectResult<Action>'.[39m[22m
+[1m[31m  Type 'Observable<unknown>' is not assignable to type 'Observable<Action>'.[39m[22m
+[1m[31m    Type 'unknown' is not assignable to type 'Action'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 12[0m     this.actions$.pipe([39m[22m
+[1m[31m[7m   [0m [91m    ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 13[0m       ofType(GameActions.loadGames),[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m[22m[1m[31m~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 20[0m       )[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~[0m[39m[22m
+[1m[31m[7m 21[0m     )[39m[22m
+[1m[31m[7m   [0m [91m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@ngrx/effects/src/effect_creator.d.ts[0m:[93m12[0m:[93m103[0m[39m[22m
+[1m[31m    [7m12[0m }, DT extends DispatchType<C>, OT extends ObservableType<DT, OT>, R extends EffectResult<OT>>(source: () => R & ConditionallyDisallowActionCreator<DT, R>, config?: C): R & CreateEffectMetadata;[39m[22m
+[1m[31m    [7m  [0m [96m                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    The expected type comes from the return type of this signature.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(GameActions.loadGames),[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'mergeMap'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m19[0m - [91merror[0m[90m TS7031: [0mBinding element 'sort' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m25[0m - [91merror[0m[90m TS7031: [0mBinding element 'search' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m                        ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m14[0m - [39m[22m[1m[31m[91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2552: [0mCannot find name 'map'. Did you mean 'Map'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m            ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.es2015.collection.d.ts[0m:[93m54[0m:[93m13[0m[39m[22m
+[1m[31m    [7m54[0m declare var Map: MapConstructor;[39m[22m
+[1m[31m    [7m  [0m [96m            ~~~[0m[39m[22m
+[1m[31m    'Map' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m TS7006: [0mParameter 'games' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m26[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'initMediaList' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m26[0m       ofType(MediaListActions.initMediaList),[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m28[0m:[39m[22m[1m[31m[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListSuccess' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m28[0m         of(MediaListActions.loadMediaListSuccess({ mediaList: [] }))[39m[22m
+[1m[31m[7m  [0m [91m                            ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m32[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m32[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:14:49.278Z[39m[37m[22m - Hash: [1m[37m003d1ce9504dc38a[39m[37m[22m - Time: [1m[37m395[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m16:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, QuizPageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Game'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(Game.loadGames),[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'mergeMap'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m19[0m - [91merror[0m[90m TS7031: [0mBinding element 'sort' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m25[0m - [91merror[0m[90m TS7031: [0mBinding element 'search' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m [39m[22m[1m[31m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m14[0m - [91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2552: [0mCannot find name 'map'. Did you mean 'Map'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m            ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.es2015.collection.d.ts[0m:[93m54[0m:[93m13[0m[39m[22m
+[1m[31m    [7m54[0m declare var Map: MapConstructor;[39m[22m
+[1m[31m    [7m  [0m [96m            ~~~[0m[39m[22m
+[1m[31m    'Map' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m TS7006: [0mParameter 'games' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m23[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m         return of(MediaListActions.loadMediaListFailure([39m[22m[1m[31m{ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:14:58.453Z[39m[37m[22m - Hash: [1m[37md5fe1ec44268bc60[39m[37m[22m - Time: [1m[37m645[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/+state/media-list/media-list.effects.ts[39m[31m[0m:[0m[93m16:16-53[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'loadMediaListFailure' (imported as 'MediaListActions') was not found in './media-list.actions' (possible exports: GameApiActions, GamePageActions)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m13[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Game'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m       ofType(Game.loadGames),[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'mergeMap'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m19[0m - [91merror[0m[90m TS7031: [0mBinding element 'sort' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m14[0m:[93m25[0m - [91merror[0m[90m TS7031: [0mBinding element 'search' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m [39m[22m[1m[31m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m14[0m - [91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2552: [0mCannot find name 'map'. Did you mean 'Map'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m            ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/typescript/lib/lib.es2015.collection.d.ts[0m:[93m54[0m:[93m13[0m[39m[22m
+[1m[31m    [7m54[0m declare var Map: MapConstructor;[39m[22m
+[1m[31m    [7m  [0m [96m            ~~~[0m[39m[22m
+[1m[31m    'Map' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m18[0m - [91merror[0m[90m TS7006: [0mParameter 'games' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                 ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m             map((games) => GameActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m23[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'loadMediaListFailure' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.actions")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m         return of(MediaListActions.loadMediaListFailure([39m[22m[1m[31m{ error }));[39m[22m
+[1m[31m[7m  [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.56 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:15:47.953Z[39m[37m[22m - Hash: [1m[37mbb221eb47f7e774c[39m[37m[22m - Time: [1m[37m517[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS2339: [0mProperty 'actions$' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m     this.actions$.pipe([39m[22m
+[1m[31m[7m [0m [91m         ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m12[0m:[93m14[0m - [91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MediaListActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game[39m[22m[1m[31m-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.78 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:15:52.494Z[39m[37m[22m - Hash: [1m[37m099ecd30f27d50ae[39m[37m[22m - Time: [1m[37m335[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS2339: [0mProperty 'actions$' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m     this.actions$.pipe([39m[22m
+[1m[31m[7m [0m [91m         ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m11[0m:[93m16[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m[22m
+[1m[31m  Overload 1 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, concurrent?: number | undefined): OperatorFunction<unknown, any>', gave the following error.[39m[22m
+[1m[31m    Argument of type '({ sort, search }: { sort: any; search: any; }) => any' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.[39m[22m
+[1m[31m      Types of parameters '__0' and 'value' are incompatible.[39m[22m
+[1m[31m        Type 'unknown' is not assignable to type '{ sort: any; search: any; }'.[39m[22m
+[1m[31m  Overload 2 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<unknown, any>', gave the following error.[39m[22m
+[1m[31m    Argument of type '({ sort, search }: { sort: any; search: any; }) => any' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.[39m[22m
+[1m[31m      Types of parameters '__0' and 'value' are incompatible[39m[22m[1m[31m.[39m[22m
+[1m[31m        Type 'unknown' is not assignable to type '{ sort: any; search: any; }'.[39m[22m
+[1m[31m  Overload 3 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: (outerValue: unknown, innerValue: any, outerIndex: number, innerIndex: number) => unknown, concurrent?: number | undefined): OperatorFunction<...>', gave the following error.[39m[22m
+[1m[31m    Argument of type '({ sort, search }: { sort: any; search: any; }) => any' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.[39m[22m
+[1m[31m      Types of parameters '__0' and 'value' are incompatible.[39m[22m
+[1m[31m        Type 'unknown' is not assignable to type '{ sort: any; search: any; }'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m       mergeMap(({ sort, search }) =>[39m[22m
+[1m[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m12[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m13[0m           .getGameList(sort, search)[39m[22m
+[1m[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m14[0m           .pipe[39m[22m
+[1m[31m[7m  [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m12[0m:[93m14[0m - [91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m           map((games) => GamesApiActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m           map((games) => GamesApiActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m          ~~~~~~~~~~~~~~~~~[39m[22m[1m[31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m16[0m           ()[39m[22m
+[1m[31m[7m  [0m [91m~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/rxjs/dist/types/internal/types.d.ts[0m:[93m21[0m:[93m6[0m[39m[22m
+[1m[31m    [7m21[0m     (source: T): R;[39m[22m
+[1m[31m    [7m  [0m [96m     ~~~~~~~~~[0m[39m[22m
+[1m[31m    An argument for 'source' was not provided.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m26[0m - [91merror[0m[90m TS2552: [0mCannot find name 'GamesApiActions'. Did you mean 'GamePageActions'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m           map((games) => GamesApiActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                         ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m63[0m - [91merror[0m[90m TS18046: [0m'games' is of type 'unknown'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m           map((games) => GamesApiActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                                                              ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MediaListActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [39m[22m[1m[31m[0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m75.82 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:16:47.502Z[39m[37m[22m - Hash: [1m[37me93e86bc4f200275[39m[37m[22m - Time: [1m[37m647[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS2339: [0mProperty 'actions$' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m     this.actions$.pipe([39m[22m
+[1m[31m[7m [0m [91m         ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m12[0m:[93m14[0m - [91merror[0m[90m TS2339: [0mProperty 'httpService' does not exist on type 'MediaListEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m         this.httpService[39m[22m
+[1m[31m[7m  [0m [91m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m15[0m:[93m64[0m - [91merror[0m[90m TS18046: [0m'games' is of type 'unknown'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m             map((games) => GameApiActions.gamesLoaded({ games: games.results }))[39m[22m
+[1m[31m[7m  [0m [91m                                                               ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MediaListActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merr[39m[22m[1m[31mor[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:17:23.082Z[39m[37m[22m - Hash: [1m[37m495dcd88c5103cdd[39m[37m[22m - Time: [1m[37m975[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m23[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MediaListActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:18:11.488Z[39m[37m[22m - Hash: [1m[37m5ef08ae71bacfa5f[39m[37m[22m - Time: [1m[37m643[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/+state/media-list/media-list.effects.ts[0m:[93m23[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'MediaListActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m23[0m         return of(MediaListActions.loadMediaListFailure({ error }));[39m[22m
+[1m[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.39 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:18:28.990Z[39m[37m[22m - Hash: [1m[37m34fd44c3c1190581[39m[37m[22m - Time: [1m[37m709[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:177-213[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'MEDIA_LIST_FEATURE_KEY' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./apps/video-game-db/src/app/app.module.ts[39m[31m[0m:[0m[93m48:215-245[39m[31m[0m - [0m[91mError: [39m[31m[0mexport 'mediaListReducer' (imported as 'fromMediaList') was not found in './+state/media-list/media-list.reducer' (possible exports: gameReducer, initialState)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'MEDIA_LIST_FEATURE_KEY' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m       fromMediaList.MEDIA_LIST_FEATURE_KEY,[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m47[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'mediaListReducer' does not exist on type 'typeof import("C:/Users/hp/Documents/GitHub/video-game-db/apps/video-game-db/src/app/+state/media-list/media-list.reducer")'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m       fromMediaList.mediaListReducer[39m[22m
+[1m[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m70.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:19:06.976Z[39m[37m[22m - Hash: [1m[37m58fde6c1c7a487a0[39m[37m[22m - Time: [1m[37m328[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m45[0m:[93m34[0m - [91merror[0m[90m TS2304: [0mCannot find name 'gameReducer'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m     StoreModule.forRoot({ games: gameReducer }),[39m[22m
+[1m[31m[7m  [0m [91m                                 ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/app.module.ts[0m:[93m46[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GameEffects'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m     EffectsModule.forRoot([GameEffects]),[39m[22m
+[1m[31m[7m  [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.31 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:20:10.674Z[39m[37m[22m - Hash: [1m[37mf0788d701ff23443[39m[37m[22m - Time: [1m[37m838[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: building)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m76.86 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:20:59.771Z[39m[37m[22m - Hash: [1m[37mfb19f9b2dea16340[39m[37m[22m - Time: [1m[37m838[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m36[0m:[93m10[0m - [91merror[0m[90m TS2339: [0mProperty 'store' does not exist on type 'HomeComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m36[0m     this.store.dispatch(GamesPageActions.loadGames({ sort, search }));[39m[22m
+[1m[31m[7m  [0m [91m         ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m36[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'GamesPageActions'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m36[0m     this.store.dispatch(GamesPageActions.loadGames({ sort, search }));[39m[22m
+[1m[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m77.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:21:07.819Z[39m[37m[22m - Hash: [1m[37md49d0bfdd5818151[39m[37m[22m - Time: [1m[37m668[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/video-game-db/src/app/components/home/home.component.ts[0m:[93m37[0m:[93m10[0m - [91merror[0m[90m TS2339: [0mProperty 'store' does not exist on type 'HomeComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m37[0m     this.store.dispatch(GamePageActions.loadGames({ sort, search }));[39m[22m
+[1m[31m[7m  [0m [91m         ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m-[39m Generating browser application bundles...[2K[1G[36m\[39m Generating browser application bundles (phase: building)...[2K[1G[36m|[39m Generating browser application bundles (phase: building)...[2K[1G[36m/[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m√[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m77.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-03-11T13:21:39.202Z[39m[37m[22m - Hash: [1m[37mad5c9fd532cdd87f[39m[37m[22m - Time: [1m[37m898[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
