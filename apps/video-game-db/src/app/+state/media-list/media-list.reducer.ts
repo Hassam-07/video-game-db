@@ -33,17 +33,5 @@ export const gameReducer = createReducer(
     ...state,
     loading: false,
     error,
-  })),
-  on(GamePageActions.searchGames, (state) => ({ ...state, loading: true })),
-  on(GameApiActions.searchGamesSuccess, (state, { games }) => ({
-    ...state,
-    games,
-    loading: false,
-    error: null,
-  })),
-  on(GameApiActions.searchGamesFailure, (state, { error }) => ({
-    ...state,
-    loading: false,
-    error,
   }))
 );

@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
@@ -20,8 +21,9 @@ import { DetailsComponent } from './components/details/details.component';
 import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
-import * as fromMediaList from './+state/media-list/media-list.reducer';
+import * as videoGame from './+state/media-list/media-list.reducer';
 import { MediaListEffects } from './+state/media-list/media-list.effects';
+import { LoadingSpinnerModule } from '@video-game-db/loading-spinner';
 import {
   GAME_FEATURE_KEY,
   gameReducer,
@@ -47,11 +49,12 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     MatSelectModule,
     GaugeModule.forRoot(),
     MatIconModule,
-    // EffectsModule.forRoot([MediaListEffects]),
-    // StoreModule.forRoot({ games: gameReducer }),
+    LoadingSpinnerModule,
+    BrowserAnimationsModule,
+    MatSnackBarModule,
     StoreModule,
     StoreModule.forRoot({}),
-    StoreModule.forFeature(GAME_FEATURE_KEY, gameReducer),
+    StoreModule.forFeature(videoGame.GAME_FEATURE_KEY, videoGame.gameReducer),
     EffectsModule.forFeature([MediaListEffects]),
     EffectsModule.forRoot([MediaListEffects]),
     StoreDevtoolsModule.instrument({ maxAge: 25 }),

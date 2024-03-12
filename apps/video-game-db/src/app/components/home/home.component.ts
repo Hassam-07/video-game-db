@@ -4,8 +4,11 @@ import { Observable, Subscription } from 'rxjs';
 import { Game, APIResponse } from '../../models';
 import { HttpService } from '../../services/http.service';
 import { GamePageActions } from '../../+state/media-list/media-list.actions';
-import { Store } from '@ngrx/store';
-import { selectGames } from '../../+state/media-list/media-list.selectors';
+import { Store, select } from '@ngrx/store';
+import {
+  selectGames,
+  selectLoading,
+} from '../../+state/media-list/media-list.selectors';
 
 @Component({
   selector: 'video-game-db-home',
@@ -19,6 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   private routeSub!: Subscription;
   private gameSub!: Subscription;
   games$!: Observable<any>;
+  isLoading$!: Observable<boolean>;
 
   constructor(
     private httpService: HttpService,
@@ -29,7 +33,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.games$ = this.store.select(selectGames);
-    this.store.dispatch(GamePageActions.loadGames());
+    this.isLoading$ = this.store.select(selectLoading);
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       if (params['game-search']) {
         this.searchGames('metacrit', params['game-search']);
@@ -40,7 +44,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   searchGames(sort: string, search?: string): void {
-    this.store.dispatch(GamePageActions.searchGames({ sort, search }));
+    this.store.dispatch(GamePageActions.loadGames({ sort, search }));
     // this.gameSub = this.httpService
     //   .getGameList(sort, search)
     //   .subscribe((gameList: APIResponse<Game>) => {

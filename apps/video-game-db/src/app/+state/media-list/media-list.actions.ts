@@ -5,8 +5,7 @@ export const GamePageActions = createActionGroup({
   source: 'Game Page',
   events: {
     Enter: emptyProps(),
-    'Load Games': emptyProps(),
-    'Search Games': props<{ sort: string; search?: string }>(),
+    'Load Games': props<{ sort: string; search?: string }>(),
   },
 });
 
@@ -15,7 +14,5 @@ export const GameApiActions = createActionGroup({
   events: {
     'Games Loaded': props<{ games: Game[] }>(),
     'Load Game Failure': props<{ error: any }>(),
-    'search games Success': props<{ games: Game[] }>(),
-    'search games Failure': props<{ error: any }>(),
   },
 });

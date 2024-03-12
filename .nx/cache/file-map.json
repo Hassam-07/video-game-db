@@ -59,7 +59,14 @@
     "ts-node": "10.9.1",
     "typescript": "~5.0.2"
   },
-  "pathMappings": {},
+  "pathMappings": {
+    "@video-game-db/loading-spinner": [
+      "libs/loading-spinner/src/index.ts"
+    ],
+    "@video-game-db/spinning-loader": [
+      "libs/spinning-loader/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [],
   "projectFileMap": {
     "video-game-db": [
@@ -77,7 +84,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.actions.ts",
-        "hash": "4533306144955555128",
+        "hash": "14942826310945703465",
         "deps": [
           "npm:@ngrx/store"
         ]
@@ -95,11 +102,12 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.effects.ts",
-        "hash": "13675987099316305769",
+        "hash": "3892797331783289308",
         "deps": [
           "npm:@angular/core",
           "npm:@ngrx/effects",
-          "npm:rxjs"
+          "npm:rxjs",
+          "npm:@angular/material"
         ]
       },
       {
@@ -115,7 +123,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts",
-        "hash": "14976403609092748413",
+        "hash": "10296964291489548909",
         "deps": [
           "npm:@ngrx/entity",
           "npm:@ngrx/store"
@@ -134,7 +142,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/app.component.html",
-        "hash": "4477956900497569605"
+        "hash": "3520881405269673675"
       },
       {
         "file": "apps/video-game-db/src/app/app.component.scss",
@@ -157,17 +165,18 @@
       },
       {
         "file": "apps/video-game-db/src/app/app.module.ts",
-        "hash": "5343067014463671178",
+        "hash": "9714320646030427674",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/platform-browser",
           "npm:@angular/router",
+          "npm:@angular/material",
           "npm:@angular/forms",
           "npm:@angular/common",
-          "npm:@angular/material",
           "npm:angular-gauge",
           "npm:@ngrx/store",
           "npm:@ngrx/effects",
+          "loading-spinner",
           "npm:@ngrx/store-devtools"
         ]
       },
@@ -226,7 +235,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.html",
-        "hash": "15454656677923955200"
+        "hash": "164594622708190800"
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.scss",
@@ -241,7 +250,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.ts",
-        "hash": "7148652934910006294",
+        "hash": "11010092478418866873",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/router",
@@ -457,6 +466,77 @@
       {
         "file": "apps/video-game-db-e2e/tsconfig.json",
         "hash": "15439127571515986436"
+      }
+    ],
+    "loading-spinner": [
+      {
+        "file": "libs/loading-spinner/.eslintrc.json",
+        "hash": "8051719731381875851"
+      },
+      {
+        "file": "libs/loading-spinner/jest.config.ts",
+        "hash": "10727036931161091177"
+      },
+      {
+        "file": "libs/loading-spinner/project.json",
+        "hash": "4706427549010450155"
+      },
+      {
+        "file": "libs/loading-spinner/README.md",
+        "hash": "13421645202601428535"
+      },
+      {
+        "file": "libs/loading-spinner/src/index.ts",
+        "hash": "14074193800312788781"
+      },
+      {
+        "file": "libs/loading-spinner/src/lib/loading-spinner.module.ts",
+        "hash": "175305048890184059",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "libs/loading-spinner/src/test-setup.ts",
+        "hash": "12935735732682149507",
+        "deps": [
+          "npm:jest-preset-angular"
+        ]
+      },
+      {
+        "file": "libs/loading-spinner/tsconfig.json",
+        "hash": "15487755565970508470"
+      },
+      {
+        "file": "libs/loading-spinner/tsconfig.lib.json",
+        "hash": "5796668385415907511"
+      },
+      {
+        "file": "libs/loading-spinner/tsconfig.spec.json",
+        "hash": "2927375835638640771"
+      },
+      {
+        "file": "libs/loading-spinner/src/lib/loading-spinner/loading-spinner.component.html",
+        "hash": "16811186220853900345"
+      },
+      {
+        "file": "libs/loading-spinner/src/lib/loading-spinner/loading-spinner.component.scss",
+        "hash": "14629700509472038805"
+      },
+      {
+        "file": "libs/loading-spinner/src/lib/loading-spinner/loading-spinner.component.spec.ts",
+        "hash": "11078815712600211343",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "libs/loading-spinner/src/lib/loading-spinner/loading-spinner.component.ts",
+        "hash": "2801328869030732107",
+        "deps": [
+          "npm:@angular/core"
+        ]
       }
     ]
   }

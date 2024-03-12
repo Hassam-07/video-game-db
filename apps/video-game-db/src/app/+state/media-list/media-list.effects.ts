@@ -1,24 +1,26 @@
 import { Injectable, inject } from '@angular/core';
 import { createEffect, Actions, ofType } from '@ngrx/effects';
-import { switchMap, catchError, of, map, mergeMap } from 'rxjs';
+import { switchMap, catchError, of, map, mergeMap, tap } from 'rxjs';
 import { GameApiActions, GamePageActions } from './media-list.actions';
 import { HttpService } from '../../services/http.service';
-import { APIResponse, Game } from '../../models';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Injectable()
 export class MediaListEffects {
-  constructor(private actions$: Actions, private httpService: HttpService) {}
+  constructor(
+    private actions$: Actions,
+    private httpService: HttpService,
+    private snackbar: MatSnackBar
+  ) {}
 
   loadGames$ = createEffect(() =>
     this.actions$.pipe(
       ofType(GamePageActions.loadGames),
-      mergeMap(() =>
+      mergeMap(({ sort, search }) =>
         this.httpService
-          .getGameList('metacrit')
+          .getGameList(sort, search)
           .pipe(
-            map((games: APIResponse<Game>) =>
-              GameApiActions.gamesLoaded({ games: games.results })
-            )
+            map((games) => GameApiActions.gamesLoaded({ games: games.results }))
           )
       ),
       catchError((error) => {
@@ -28,19 +30,20 @@ export class MediaListEffects {
     )
   );
 
-  searchGames$ = createEffect(() =>
-    this.actions$.pipe(
-      ofType(GamePageActions.searchGames),
-      mergeMap(({ sort, search }) =>
-        this.httpService.getGameList(sort, search).pipe(
-          map((response: APIResponse<Game>) =>
-            GameApiActions.searchGamesSuccess({ games: response.results })
-          ),
-          catchError((error) =>
-            of(GameApiActions.searchGamesFailure({ error }))
-          )
-        )
-      )
-    )
+  handleError$ = createEffect(
+    () =>
+      this.actions$.pipe(
+        ofType(GameApiActions.loadGameFailure),
+        tap((action) => {
+          const errorMessages: { [key: string]: string } = {
+            [GameApiActions.loadGameFailure.type]: 'Load Game Failure',
+          };
+          const errormessage =
+            errorMessages[action.type] ||
+            'Something went wrong please try later';
+          this.snackbar.open(errormessage, 'Error');
+        })
+      ),
+    { dispatch: false }
   );
 }

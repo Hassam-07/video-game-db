@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@video-game-db/loading-spinner": ["libs/loading-spinner/src/index.ts"],
+      "@video-game-db/spinning-loader": ["libs/spinning-loader/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
