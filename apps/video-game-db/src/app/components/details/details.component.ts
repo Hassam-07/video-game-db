@@ -1,8 +1,15 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 import { Game } from '../../models';
 import { HttpService } from '../../services/http.service';
+import { GamePageActions } from '../../+state/media-list/media-list.actions';
+import { Store, select } from '@ngrx/store';
+import {
+  selectGameDetails,
+  selectGameRating,
+  selectGameRatingColor,
+} from '../../+state/media-list/media-list.selectors';
 
 @Component({
   selector: 'video-game-db-details',
@@ -15,30 +22,32 @@ export class DetailsComponent implements OnInit, OnDestroy {
   game!: Game;
   routeSub!: Subscription;
   gameSub!: Subscription;
+  public gameRating$!: Observable<number>;
+  // public gameRatingColor$!: Observable<any>;
+  gameDetails$!: Observable<any>;
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private httpService: HttpService
+    private httpService: HttpService,
+    private store: Store
   ) {}
 
   ngOnInit(): void {
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       this.gameId = params['id'];
-      this.getGameDetails(this.gameId);
+      // this.getGameDetails(this.gameId);
+      this.store.dispatch(GamePageActions.loadGameDetails({ id: this.gameId }));
     });
+    this.gameRating$ = this.store.select(selectGameRating);
+    this.gameDetails$ = this.store.select(selectGameDetails);
+    // this.gameRatingColor$ = this.store.select(selectGameRatingColor);
   }
 
-  getGameDetails(id: string): void {
-    this.gameSub = this.httpService
-      .getGameDetails(id)
-      .subscribe((gameResp: Game) => {
-        this.game = gameResp;
+  // getGameDetails(id: string): void {
 
-        setTimeout(() => {
-          this.gameRating = this.game.metacritic;
-        }, 1000);
-      });
-  }
+  //   this.store.dispatch(GamePageActions.loadGameDetails({ id }));
+
+  // }
 
   getColor(value: number): string {
     if (value > 75) {

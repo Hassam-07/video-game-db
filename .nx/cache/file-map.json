@@ -84,7 +84,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.actions.ts",
-        "hash": "14942826310945703465",
+        "hash": "11446180311728156806",
         "deps": [
           "npm:@ngrx/store"
         ]
@@ -102,7 +102,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.effects.ts",
-        "hash": "3892797331783289308",
+        "hash": "16951146006405240075",
         "deps": [
           "npm:@angular/core",
           "npm:@ngrx/effects",
@@ -112,7 +112,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.models.ts",
-        "hash": "9775138879944618613"
+        "hash": "13823251872214807894"
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.reducer.spec.ts",
@@ -123,7 +123,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.reducer.ts",
-        "hash": "10296964291489548909",
+        "hash": "6958065965607359006",
         "deps": [
           "npm:@ngrx/entity",
           "npm:@ngrx/store"
@@ -135,7 +135,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/+state/media-list/media-list.selectors.ts",
-        "hash": "223409251795523712",
+        "hash": "1491892826745595377",
         "deps": [
           "npm:@ngrx/store"
         ]
@@ -189,7 +189,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/details/details.component.html",
-        "hash": "3714299208126782615"
+        "hash": "15335878289129053290"
       },
       {
         "file": "apps/video-game-db/src/app/components/details/details.component.scss",
@@ -204,11 +204,12 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/details/details.component.ts",
-        "hash": "4259830697479976634",
+        "hash": "12976411861690352533",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/router",
-          "npm:rxjs"
+          "npm:rxjs",
+          "npm:@ngrx/store"
         ]
       },
       {
@@ -235,7 +236,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.html",
-        "hash": "164594622708190800"
+        "hash": "11957611801910055170"
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.scss",
@@ -250,7 +251,7 @@
       },
       {
         "file": "apps/video-game-db/src/app/components/home/home.component.ts",
-        "hash": "11010092478418866873",
+        "hash": "5201531625481313271",
         "deps": [
           "npm:@angular/core",
           "npm:@angular/router",
