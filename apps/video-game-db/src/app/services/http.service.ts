@@ -24,6 +24,18 @@ export class HttpService {
       params: params,
     });
   }
+  getGamePagination(
+    page: number,
+    pageSize: number
+  ): Observable<APIResponse<Game>> {
+    const params = new HttpParams()
+      .set('page', page.toString())
+      .set('page_size', pageSize.toString());
+
+    return this.http.get<APIResponse<Game>>(`${env.BASE_URL}/games`, {
+      params,
+    });
+  }
 
   getGameDetails(id: string): Observable<Game> {
     const gameInfoRequest = this.http.get(`${env.BASE_URL}/games/${id}`);

@@ -5,9 +5,13 @@ import { Game, APIResponse } from '../../models';
 import { HttpService } from '../../services/http.service';
 import { GamePageActions } from '../../+state/media-list/media-list.actions';
 import { Store, select } from '@ngrx/store';
+import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import {
+  selectCount,
   selectGames,
   selectLoading,
+  selectPageIndex,
+  selectPageSize,
   selectSortOrder,
 } from '../../+state/media-list/media-list.selectors';
 
@@ -23,9 +27,17 @@ export class HomeComponent implements OnInit, OnDestroy {
   private routeSub!: Subscription;
   private gameSub!: Subscription;
   private sortSub!: Subscription;
-  games$!: Observable<any>;
+  games$!: Observable<Game[]>;
   isLoading$!: Observable<boolean>;
   public sortOrder$!: Observable<string>;
+  public pageIndex = 0;
+  public pageSize = 20;
+
+  pageIndex$!: Observable<number>;
+  public pageSize$!: Observable<number>;
+  public nextPageUrl$!: Observable<string | null>;
+  public previousPageUrl$!: Observable<string | null>;
+  count$!: Observable<number>;
 
   constructor(
     private httpService: HttpService,
@@ -38,15 +50,34 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.games$ = this.store.select(selectGames);
     this.isLoading$ = this.store.select(selectLoading);
     this.sortOrder$ = this.store.pipe(select(selectSortOrder));
+    this.pageIndex$ = this.store.select(selectPageIndex);
+    this.pageSize$ = this.store.select(selectPageSize);
+    // this.nextPageUrl$ = this.store.select(selectNextPageUrl);
+    // this.previousPageUrl$ = this.store.select(selectPreviousPageUrl);
+    this.count$ = this.store.select(selectCount);
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       if (params['game-search']) {
         this.searchGames('metacrit', params['game-search']);
       } else {
         // this.searchGames('metacrit');
-        this.store.dispatch(GamePageActions.loadGames());
+        this.store.dispatch(
+          GamePageActions.loadGames({
+            ordering: 'metacrit',
+          })
+        );
         // this.sortGames(this.sort);
       }
     });
+    // this.store.dispatch(GamePageActions.setCount({ count: this.count$ }));
+    console.log('games', this.games$);
+  }
+  onPageChange(event: PageEvent): void {
+    const pageIndex = event.pageIndex + 1;
+    const pageSize = event.pageSize;
+    this.store.dispatch(
+      GamePageActions.pageChanging({ page: pageIndex, pageSize: pageSize })
+    );
+    console.log('page', pageIndex);
   }
 
   searchGames(sort: string, search?: string): void {

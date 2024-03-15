@@ -29,6 +29,7 @@ import {
   gameReducer,
 } from './+state/media-list/media-list.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     GaugeModule.forRoot(),
     MatIconModule,
     LoadingSpinnerModule,
+    MatPaginatorModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
     StoreModule,

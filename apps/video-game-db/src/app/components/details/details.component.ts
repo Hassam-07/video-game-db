@@ -6,9 +6,11 @@ import { HttpService } from '../../services/http.service';
 import { GamePageActions } from '../../+state/media-list/media-list.actions';
 import { Store, select } from '@ngrx/store';
 import {
+  selectDetailLoading,
   selectGameDetails,
   selectGameRating,
   selectGameRatingColor,
+  selectLoading,
 } from '../../+state/media-list/media-list.selectors';
 
 @Component({
@@ -22,9 +24,10 @@ export class DetailsComponent implements OnInit, OnDestroy {
   game!: Game;
   routeSub!: Subscription;
   gameSub!: Subscription;
-  public gameRating$!: Observable<number>;
-  // public gameRatingColor$!: Observable<any>;
+  public gameRating$!: Observable<any>;
+  public gameRatingColor$!: Observable<any>;
   gameDetails$!: Observable<any>;
+  isLoading$!: Observable<boolean>;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -38,9 +41,10 @@ export class DetailsComponent implements OnInit, OnDestroy {
       // this.getGameDetails(this.gameId);
       this.store.dispatch(GamePageActions.loadGameDetails({ id: this.gameId }));
     });
+    this.isLoading$ = this.store.select(selectDetailLoading);
     this.gameRating$ = this.store.select(selectGameRating);
     this.gameDetails$ = this.store.select(selectGameDetails);
-    // this.gameRatingColor$ = this.store.select(selectGameRatingColor);
+    this.gameRatingColor$ = this.store.select(selectGameRatingColor);
   }
 
   // getGameDetails(id: string): void {
@@ -50,6 +54,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   // }
 
   getColor(value: number): string {
+    console.log('color', value);
     if (value > 75) {
       return '#5ee432';
     } else if (value > 50) {

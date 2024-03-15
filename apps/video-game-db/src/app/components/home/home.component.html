@@ -47,5 +47,13 @@
         </div>
       </div>
     </ng-container>
+
+    <mat-paginator
+      [length]="count$ | async"
+      [pageSize]="pageSize"
+      [pageIndex]="pageIndex"
+      (page)="onPageChange($event)"
+    >
+    </mat-paginator>
   </ng-template>
 </div>

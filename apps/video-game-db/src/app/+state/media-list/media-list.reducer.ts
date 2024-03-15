@@ -13,6 +13,11 @@ export interface GameState {
   sortOrder: string;
   gameRating: number;
   details: DetailsState;
+  pageIndex: number;
+  nextPageUrl: string | null;
+  previousPageUrl: string | null;
+  count: number;
+  pageSize: number;
 }
 
 export const initialState: GameState = {
@@ -26,6 +31,11 @@ export const initialState: GameState = {
     loading: false,
     error: null,
   },
+  pageIndex: 1,
+  nextPageUrl: null,
+  previousPageUrl: null,
+  count: 0,
+  pageSize: 20,
 };
 
 export const gameReducer = createReducer(
@@ -34,16 +44,25 @@ export const gameReducer = createReducer(
     ...state,
     loading: true,
   })),
-  on(GameApiActions.gamesLoadedSuccess, (state, { games }) => ({
+  on(GameApiActions.gamesLoadedSuccess, (state, { games, count }) => ({
     ...state,
     games,
     loading: false,
     error: null,
+    count,
   })),
   on(GameApiActions.loadGameFailure, (state, { error }) => ({
     ...state,
     loading: false,
     error,
+  })),
+  on(GamePageActions.setPageIndex, (state, { pageIndex }) => ({
+    ...state,
+    pageIndex,
+  })),
+  on(GamePageActions.setPageSize, (state, { pageSize }) => ({
+    ...state,
+    pageSize,
   })),
   on(GamePageActions.searchGames, (state) => ({
     ...state,
@@ -91,6 +110,7 @@ export const gameReducer = createReducer(
       game,
       loading: false,
     },
+    gameRating: game.metacritic,
   })),
   on(GameApiActions.gameDetailsLoadFailed, (state, { error }) => ({
     ...state,
@@ -99,5 +119,26 @@ export const gameReducer = createReducer(
       error,
       loading: false,
     },
+  })),
+  on(GamePageActions.setCount, (state) => ({
+    ...state,
+  })),
+  on(GameApiActions.setCountSuccess, (state, { count }) => ({
+    ...state,
+    count,
+  })),
+  on(GamePageActions.pageChanging, (state, { page }) => ({
+    ...state,
+    loading: true,
+    page: page,
+  })),
+  on(GameApiActions.pageChangingSuccess, (state, { games }) => ({
+    ...state,
+    games,
+    loading: false,
+  })),
+  on(GameApiActions.pageChangingFailure, (state, { error }) => ({
+    ...state,
+    error,
   }))
 );
