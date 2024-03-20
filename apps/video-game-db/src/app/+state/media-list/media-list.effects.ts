@@ -96,22 +96,6 @@ export class MediaListEffects {
     )
   );
 
-  // loadGameDetails$ = createEffect(() =>
-  //   this.actions$.pipe(
-  //     ofType(GamePageActions.loadGameDetails),
-  //     switchMap(({ id }) =>
-  //       this.httpService.getGameDetails(id).pipe(
-  //         map((game: Game) =>
-  //           GameApiActions.gameDetailsLoadedSuccess({ game })
-  //         ),
-  //         catchError((error: any) =>
-  //           of(GameApiActions.gameDetailsLoadFailed({ error }))
-  //         )
-  //       )
-  //     )
-  //   )
-  // );
-
   handleError$ = createEffect(
     () =>
       this.actions$.pipe(
@@ -119,6 +103,11 @@ export class MediaListEffects {
         tap((action) => {
           const errorMessages: { [key: string]: string } = {
             [GameApiActions.loadGameFailure.type]: 'Load Game Failure',
+            [GameApiActions.sortGamesFailure.type]: 'Sort Game Failure',
+            [GameApiActions.searchGamesFailure.type]: 'Search Game Failure',
+            [GameApiActions.pageChangingFailure.type]:
+              'Game Page changine Failure',
+            [GameApiActions.setCountFailure.type]: 'Set count Failure',
           };
           const errormessage =
             errorMessages[action.type] ||

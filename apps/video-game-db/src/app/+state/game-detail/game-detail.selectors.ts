@@ -1,43 +1,32 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { State, gameDetailFeatureKey } from './game-detail.reducer';
-import { Game } from '../../models';
-import { GameState } from '../media-list/media-list.reducer';
+import { GameDetailState, gameDetailFeatureKey } from './game-detail.reducer';
 
 export const selectGameState =
-  createFeatureSelector<State>(gameDetailFeatureKey);
-
-export const selectGames = createSelector(selectGameState, (state: State) => {
-  console.log(state.games);
-  return state.games;
-});
+  createFeatureSelector<GameDetailState>(gameDetailFeatureKey);
 
 export const selectDetailLoading = createSelector(
   selectGameState,
-  (state: State) => state.details.loading
+  (state: GameDetailState) => state.loading
 );
 
 export const selectGameDetails = createSelector(
   selectGameState,
-  (state: State) => {
-    console.log(state.details);
-    return state.details.game;
+  (state: GameDetailState) => {
+    return state.game;
   }
 );
 export const selectGameRating = createSelector(
   selectGameState,
-  (state: State) => state.gameRating
+  (state: GameDetailState) => state.gameRating
 );
 
 export const selectGameDetailView = createSelector(
-  selectGames,
   selectGameDetails,
   selectDetailLoading,
   selectGameRating,
-  (games, gameDetail, gameDetailLoading, gameRating) => ({
-    games,
+  (gameDetail, gameDetailLoading, gameRating) => ({
     gameDetail,
     gameDetailLoading,
     gameRating,
-   
   })
 );

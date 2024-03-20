@@ -30,7 +30,7 @@ export class GameDetailEffects {
             GameDetailApiActions.gameDetailsLoadedSuccess({ game })
           ),
           catchError((error: any) =>
-            of(GameDetailApiActions.gameDetailsLoadFailed({ error }))
+            of(GameDetailApiActions.gameDetailsLoadFailure({ error }))
           )
         )
       )
@@ -40,15 +40,9 @@ export class GameDetailEffects {
   handleError$ = createEffect(
     () =>
       this.actions$.pipe(
-        ofType(GameDetailApiActions.gameDetailsLoadFailed),
-        tap((action) => {
-          const errorMessages: { [key: string]: string } = {
-            [GameDetailApiActions.gameDetailsLoadFailed.type]:
-              'Load Game Detail Failure',
-          };
-          const errormessage =
-            errorMessages[action.type] ||
-            'Something went wrong please try later';
+        ofType(GameDetailApiActions.gameDetailsLoadFailure),
+        tap(() => {
+          const errormessage = 'Load Game Detail Failure';
           this.snackbar.open(errormessage, 'Error');
         })
       ),

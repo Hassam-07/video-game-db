@@ -28,11 +28,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   gameSub!: Subscription;
   gameDetailsView$!: Observable<any>;
 
-  constructor(
-    private activatedRoute: ActivatedRoute,
-    private httpService: HttpService,
-    private store: Store
-  ) {}
+  constructor(private activatedRoute: ActivatedRoute, private store: Store) {}
 
   ngOnInit(): void {
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {

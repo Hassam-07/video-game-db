@@ -32,8 +32,6 @@ export const GameApiActions = createActionGroup({
     'search games Failure': props<{ error: any }>(),
     'sort games Success': props<{ games: Game[]; count: number }>(),
     'sort games Failure': props<{ error: any }>(),
-    // 'Game Details Loaded Success': props<{ game: Game }>(),
-    // 'Game Details Load Failed': props<{ error: any }>(),
     'Page changing Success': props<{ games: Game[]; count: number }>(),
     'Page changing Failure': props<{ error: any }>(),
     'Set Count Success': props<{ count: number }>(),

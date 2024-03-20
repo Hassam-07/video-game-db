@@ -15,6 +15,6 @@ export const GameDetailApiActions = createActionGroup({
   source: 'Game Detail/API',
   events: {
     'Game Details Loaded Success': props<{ game: Game }>(),
-    'Game Details Load Failed': props<{ error: any }>(),
+    'Game Details Load Failure': props<{ error: any }>(),
   },
 });
