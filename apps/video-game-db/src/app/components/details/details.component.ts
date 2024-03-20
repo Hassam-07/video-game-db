@@ -5,13 +5,12 @@ import { Game } from '../../models';
 import { HttpService } from '../../services/http.service';
 import { GamePageActions } from '../../+state/media-list/media-list.actions';
 import { Store, select } from '@ngrx/store';
+import { selectGameRating } from '../../+state/game-detail/game-detail.selectors';
 import {
   selectDetailLoading,
   selectGameDetails,
-  selectGameRating,
-  selectGameRatingColor,
-  selectLoading,
-} from '../../+state/media-list/media-list.selectors';
+} from '../../+state/game-detail/game-detail.selectors';
+import { GameDetailPageActions } from '../../+state/game-detail/game-detail.actions';
 
 @Component({
   selector: 'video-game-db-details',
@@ -39,12 +38,14 @@ export class DetailsComponent implements OnInit, OnDestroy {
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       this.gameId = params['id'];
       // this.getGameDetails(this.gameId);
-      this.store.dispatch(GamePageActions.loadGameDetails({ id: this.gameId }));
+      this.store.dispatch(
+        GameDetailPageActions.loadGameDetails({ id: this.gameId })
+      );
     });
     this.isLoading$ = this.store.select(selectDetailLoading);
     this.gameRating$ = this.store.select(selectGameRating);
     this.gameDetails$ = this.store.select(selectGameDetails);
-    this.gameRatingColor$ = this.store.select(selectGameRatingColor);
+    // this.gameRatingColor$ = this.store.select(selectGameRatingColor);
   }
 
   // getGameDetails(id: string): void {

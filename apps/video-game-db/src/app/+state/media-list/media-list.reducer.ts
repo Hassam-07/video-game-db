@@ -12,7 +12,6 @@ export interface GameState {
   error: any;
   sortOrder: string;
   gameRating: number;
-  details: DetailsState;
   pageIndex: number;
   nextPageUrl: string | null;
   previousPageUrl: string | null;
@@ -26,12 +25,7 @@ export const initialState: GameState = {
   error: null,
   sortOrder: '',
   gameRating: 0,
-  details: {
-    game: null,
-    loading: false,
-    error: null,
-  },
-  pageIndex: 1,
+  pageIndex: 0,
   nextPageUrl: null,
   previousPageUrl: null,
   count: 0,
@@ -58,7 +52,7 @@ export const gameReducer = createReducer(
   })),
   on(GamePageActions.setPageIndex, (state, { pageIndex }) => ({
     ...state,
-    pageIndex,
+    pageIndex: pageIndex,
   })),
   on(GamePageActions.setPageSize, (state, { pageSize }) => ({
     ...state,
@@ -68,11 +62,12 @@ export const gameReducer = createReducer(
     ...state,
     loading: true,
   })),
-  on(GameApiActions.searchGamesSuccess, (state, { games }) => ({
+  on(GameApiActions.searchGamesSuccess, (state, { games, count }) => ({
     ...state,
     games,
     loading: false,
     error: null,
+    count,
   })),
   on(GameApiActions.searchGamesFailure, (state, { error }) => ({
     ...state,
@@ -83,43 +78,44 @@ export const gameReducer = createReducer(
     ...state,
     loading: true,
   })),
-  on(GameApiActions.sortGamesSuccess, (state, { games }) => ({
+  on(GameApiActions.sortGamesSuccess, (state, { games, count }) => ({
     ...state,
     games,
     loading: false,
     error: null,
+    count: count,
   })),
   on(GameApiActions.sortGamesFailure, (state, { error }) => ({
     ...state,
     loading: false,
     error,
   })),
-  on(GamePageActions.loadGameDetails, (state) => ({
-    ...state,
-    loading: true,
-    details: {
-      ...state.details,
-      loading: true,
-      error: null,
-    },
-  })),
-  on(GameApiActions.gameDetailsLoadedSuccess, (state, { game }) => ({
-    ...state,
-    details: {
-      ...state.details,
-      game,
-      loading: false,
-    },
-    gameRating: game.metacritic,
-  })),
-  on(GameApiActions.gameDetailsLoadFailed, (state, { error }) => ({
-    ...state,
-    details: {
-      ...state.details,
-      error,
-      loading: false,
-    },
-  })),
+  // on(GamePageActions.loadGameDetails, (state) => ({
+  //   ...state,
+  //   loading: true,
+  //   details: {
+  //     ...state.details,
+  //     loading: true,
+  //     error: null,
+  //   },
+  // })),
+  // on(GameApiActions.gameDetailsLoadedSuccess, (state, { game }) => ({
+  //   ...state,
+  //   details: {
+  //     ...state.details,
+  //     game,
+  //     loading: false,
+  //   },
+  //   gameRating: game.metacritic,
+  // })),
+  // on(GameApiActions.gameDetailsLoadFailed, (state, { error }) => ({
+  //   ...state,
+  //   details: {
+  //     ...state.details,
+  //     error,
+  //     loading: false,
+  //   },
+  // })),
   on(GamePageActions.setCount, (state) => ({
     ...state,
   })),
@@ -127,14 +123,16 @@ export const gameReducer = createReducer(
     ...state,
     count,
   })),
-  on(GamePageActions.pageChanging, (state, { page }) => ({
+  on(GamePageActions.pageChanging, (state, { page, pageSize }) => ({
     ...state,
     loading: true,
     page: page,
+    pageSize: pageSize,
   })),
-  on(GameApiActions.pageChangingSuccess, (state, { games }) => ({
+  on(GameApiActions.pageChangingSuccess, (state, { games, count }) => ({
     ...state,
     games,
+    count,
     loading: false,
   })),
   on(GameApiActions.pageChangingFailure, (state, { error }) => ({

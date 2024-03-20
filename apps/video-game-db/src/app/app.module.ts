@@ -30,6 +30,9 @@ import {
 } from './+state/media-list/media-list.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { StoreRouterConnectingModule } from '@ngrx/router-store';
+import * as fromGameDetail from './+state/game-detail/game-detail.reducer';
+import { GameDetailEffects } from './+state/game-detail/game-detail.effects';
 
 @NgModule({
   declarations: [
@@ -57,9 +60,14 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     StoreModule,
     StoreModule.forRoot({}),
     StoreModule.forFeature(videoGame.GAME_FEATURE_KEY, videoGame.gameReducer),
-    EffectsModule.forFeature([MediaListEffects]),
+    EffectsModule.forFeature([MediaListEffects, GameDetailEffects]),
     EffectsModule.forRoot([MediaListEffects]),
     StoreDevtoolsModule.instrument({ maxAge: 25 }),
+    StoreRouterConnectingModule.forRoot(),
+    StoreModule.forFeature(
+      fromGameDetail.gameDetailFeatureKey,
+      fromGameDetail.reducer
+    ),
   ],
   providers: [
     {

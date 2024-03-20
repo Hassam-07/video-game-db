@@ -12,25 +12,29 @@ export class HttpService {
 
   getGameList(
     ordering: string,
+    page: number,
+    page_size: number,
     search?: string
   ): Observable<APIResponse<Game>> {
-    let params = new HttpParams().set('ordering', ordering);
+    let params = new HttpParams()
+      .set('ordering', ordering)
+      .set('page', page.toString())
+      .set('page_size', page_size.toString());
 
     if (search) {
-      params = new HttpParams().set('ordering', ordering).set('search', search);
+      params = new HttpParams()
+        .set('ordering', ordering)
+        .set('page', page.toString())
+        .set('search', search);
     }
+    console.log('service', page);
 
     return this.http.get<APIResponse<Game>>(`${env.BASE_URL}/games`, {
       params: params,
     });
   }
-  getGamePagination(
-    page: number,
-    pageSize: number
-  ): Observable<APIResponse<Game>> {
-    const params = new HttpParams()
-      .set('page', page.toString())
-      .set('page_size', pageSize.toString());
+  getGamePagination(page: number): Observable<APIResponse<Game>> {
+    const params = new HttpParams().set('page', page.toString());
 
     return this.http.get<APIResponse<Game>>(`${env.BASE_URL}/games`, {
       params,

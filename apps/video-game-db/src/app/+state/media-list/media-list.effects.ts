@@ -21,7 +21,7 @@ export class MediaListEffects {
     this.actions$.pipe(
       ofType(GamePageActions.loadGames),
       mergeMap(({ ordering }) =>
-        this.httpService.getGameList(ordering).pipe(
+        this.httpService.getGameList(ordering, 1, 20).pipe(
           map((response: APIResponse<Game>) =>
             GameApiActions.gamesLoadedSuccess({
               games: response.results,
@@ -34,50 +34,6 @@ export class MediaListEffects {
     )
   );
 
-  // loadGames$ = createEffect(() =>
-  //   this.actions$.pipe(
-  //     ofType(GamePageActions.loadGames),
-  //     switchMap(({ offset, pageSize }) =>
-  //       this.httpService.getGameList('metacrit', offset, pageSize).pipe(
-  //         map((response: APIResponse<Game>) =>
-  //           GameApiActions.gamesLoadedSuccess({ games: response.results })
-  //         ),
-  //         catchError((error) => of(GameApiActions.loadGameFailure({ error })))
-  //       )
-  //     )
-  //   )
-  // );
-  // loadNextPage$ = createEffect(() =>
-  //   this.actions$.pipe(
-  //     ofType(GamePageActions.loadNextPage),
-  //     mergeMap(() =>
-  //       this.httpService.getGameList('metacrit', 2).pipe(
-  //         map((response) =>
-  //           GameApiActions.loadNextPageSuccess({ games: response.results })
-  //         ),
-  //         catchError((error) =>
-  //           of(GameApiActions.loadNextPageFailure({ error }))
-  //         )
-  //       )
-  //     )
-  //   )
-  // );
-
-  // loadPreviousPage$ = createEffect(() =>
-  //   this.actions$.pipe(
-  //     ofType(GamePageActions.loadPreviousPage),
-  //     mergeMap(() =>
-  //       this.httpService.getGameList('metacrit', 1).pipe(
-  //         map((response) =>
-  //           GameApiActions.loadPreviousPageSuccess({ games: response.results })
-  //         ),
-  //         catchError((error) =>
-  //           of(GameApiActions.loadPreviousPageFailure({ error }))
-  //         )
-  //       )
-  //     )
-  //   )
-  // );
   setCount$ = createEffect(() =>
     this.actions$.pipe(
       ofType(GamePageActions.setCount),
@@ -88,10 +44,9 @@ export class MediaListEffects {
   loadGamesByPage$ = createEffect(() =>
     this.actions$.pipe(
       ofType(GamePageActions.pageChanging),
-      switchMap(({ page, pageSize }) =>
-        this.httpService.getGamePagination(page, pageSize).pipe(
+      switchMap(({ ordering, page, pageSize, search }) =>
+        this.httpService.getGameList(ordering, page, pageSize, search).pipe(
           map((response) => {
-            // concatLatestFrom(() => this.store.pipe(select(selectCount))),
             return GameApiActions.pageChangingSuccess({
               games: response.results,
               count: response.count,
@@ -104,29 +59,17 @@ export class MediaListEffects {
       )
     )
   );
-  // loadGamesByPage$ = createEffect(() =>
-  //   this.actions$.pipe(
-  //     ofType(GamePageActions.pageChanging),
-  //     switchMap(({ page }) =>
-  //       this.httpService.getGamePagination(page).pipe(
-  //         map((response) =>
-  //           GameApiActions.pageChangingSuccess({ games: response.results })
-  //         ),
-  //         catchError((error) =>
-  //           of(GameApiActions.pageChangingFailure({ error }))
-  //         )
-  //       )
-  //     )
-  //   )
-  // );
 
   searchGames$ = createEffect(() =>
     this.actions$.pipe(
       ofType(GamePageActions.searchGames),
       switchMap(({ sort, search }) =>
-        this.httpService.getGameList(sort, search).pipe(
+        this.httpService.getGameList(sort, 1, 20, search).pipe(
           map((response: APIResponse<Game>) =>
-            GameApiActions.searchGamesSuccess({ games: response.results })
+            GameApiActions.searchGamesSuccess({
+              games: response.results,
+              count: response.count,
+            })
           ),
           catchError((error) =>
             of(GameApiActions.searchGamesFailure({ error }))
@@ -140,9 +83,12 @@ export class MediaListEffects {
     this.actions$.pipe(
       ofType(GamePageActions.sortGames),
       switchMap(({ sort, search }) =>
-        this.httpService.getGameList(sort, search).pipe(
+        this.httpService.getGameList(sort, 1, 20, search).pipe(
           map((response: APIResponse<Game>) =>
-            GameApiActions.sortGamesSuccess({ games: response.results })
+            GameApiActions.sortGamesSuccess({
+              games: response.results,
+              count: response.count,
+            })
           ),
           catchError((error) => of(GameApiActions.sortGamesFailure({ error })))
         )
@@ -150,21 +96,21 @@ export class MediaListEffects {
     )
   );
 
-  loadGameDetails$ = createEffect(() =>
-    this.actions$.pipe(
-      ofType(GamePageActions.loadGameDetails),
-      switchMap(({ id }) =>
-        this.httpService.getGameDetails(id).pipe(
-          map((game: Game) =>
-            GameApiActions.gameDetailsLoadedSuccess({ game })
-          ),
-          catchError((error: any) =>
-            of(GameApiActions.gameDetailsLoadFailed({ error }))
-          )
-        )
-      )
-    )
-  );
+  // loadGameDetails$ = createEffect(() =>
+  //   this.actions$.pipe(
+  //     ofType(GamePageActions.loadGameDetails),
+  //     switchMap(({ id }) =>
+  //       this.httpService.getGameDetails(id).pipe(
+  //         map((game: Game) =>
+  //           GameApiActions.gameDetailsLoadedSuccess({ game })
+  //         ),
+  //         catchError((error: any) =>
+  //           of(GameApiActions.gameDetailsLoadFailed({ error }))
+  //         )
+  //       )
+  //     )
+  //   )
+  // );
 
   handleError$ = createEffect(
     () =>
