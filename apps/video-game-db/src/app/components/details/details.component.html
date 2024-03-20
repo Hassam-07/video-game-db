@@ -1,10 +1,12 @@
+<section *ngIf="gameDetailsView$ | async as gameDetailData">
+
 <ng-container>
   <video-game-db-loading-spinner
-    *ngIf="isLoading$ | async; else games"
+    *ngIf="gameDetailData.gameDetailLoading; else games"
   ></video-game-db-loading-spinner>
 </ng-container>
 <ng-template #games>
-  <div class="details" *ngIf="gameDetails$ | async as game">
+  <div class="details" *ngIf="gameDetailData.gameDetail as game">
     <div class="game-banner">
       <img
         class="game-banner-img"
@@ -30,7 +32,7 @@
               [max]="100"
               [dialStartAngle]="180"
               [dialEndAngle]="0"
-              [value]="gameRating$ | async"
+              [value]="gameDetailData.gameRating"
               [animated]="true"
               [color]="getColor"
               [animationDuration]="2"
@@ -45,9 +47,10 @@
           </div>
         </div>
         <video-game-db-game-tabs
-          [game]="gameDetails$ | async"
+          [game]="gameDetailData.gameDetail"
         ></video-game-db-game-tabs>
       </div>
     </div>
   </div>
 </ng-template>
+</section>

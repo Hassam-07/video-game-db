@@ -27,3 +27,17 @@ export const selectGameRating = createSelector(
   selectGameState,
   (state: State) => state.gameRating
 );
+
+export const selectGameDetailView = createSelector(
+  selectGames,
+  selectGameDetails,
+  selectDetailLoading,
+  selectGameRating,
+  (games, gameDetail, gameDetailLoading, gameRating) => ({
+    games,
+    gameDetail,
+    gameDetailLoading,
+    gameRating,
+   
+  })
+);

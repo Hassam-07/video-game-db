@@ -5,7 +5,10 @@ import { Game } from '../../models';
 import { HttpService } from '../../services/http.service';
 import { GamePageActions } from '../../+state/media-list/media-list.actions';
 import { Store, select } from '@ngrx/store';
-import { selectGameRating } from '../../+state/game-detail/game-detail.selectors';
+import {
+  selectGameDetailView,
+  selectGameRating,
+} from '../../+state/game-detail/game-detail.selectors';
 import {
   selectDetailLoading,
   selectGameDetails,
@@ -23,10 +26,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   game!: Game;
   routeSub!: Subscription;
   gameSub!: Subscription;
-  public gameRating$!: Observable<any>;
-  public gameRatingColor$!: Observable<any>;
-  gameDetails$!: Observable<any>;
-  isLoading$!: Observable<boolean>;
+  gameDetailsView$!: Observable<any>;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -37,22 +37,12 @@ export class DetailsComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       this.gameId = params['id'];
-      // this.getGameDetails(this.gameId);
       this.store.dispatch(
         GameDetailPageActions.loadGameDetails({ id: this.gameId })
       );
     });
-    this.isLoading$ = this.store.select(selectDetailLoading);
-    this.gameRating$ = this.store.select(selectGameRating);
-    this.gameDetails$ = this.store.select(selectGameDetails);
-    // this.gameRatingColor$ = this.store.select(selectGameRatingColor);
+    this.gameDetailsView$ = this.store.select(selectGameDetailView);
   }
-
-  // getGameDetails(id: string): void {
-
-  //   this.store.dispatch(GamePageActions.loadGameDetails({ id }));
-
-  // }
 
   getColor(value: number): string {
     console.log('color', value);

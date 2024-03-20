@@ -17,44 +17,48 @@
   </mat-form-field>
 </div>
 
-<div class="games">
-  <ng-container>
-    <video-game-db-loading-spinner
-      *ngIf="isLoading$ | async; else games"
-    ></video-game-db-loading-spinner>
-  </ng-container>
-  <ng-template #games>
-    <ng-container *ngFor="let game of games$ | async">
-      <div class="game" (click)="openGameDetails(game.id)">
-        <div class="game-thumb-container">
-          <img
-            *ngIf="game.background_image"
-            [src]="game.background_image"
-            alt="thumbnail"
-            class="game-thumbnail"
-          />
-          <p *ngIf="!game.background_image">No image</p>
-        </div>
-        <div class="game-description">
-          <p class="game-name">{{ game.name }}</p>
-          <div class="game-platforms">
+<section *ngIf="gameViewState$ | async as GameData">
+  <div class="games">
+    <ng-container>
+      <video-game-db-loading-spinner
+        *ngIf="GameData.loading; else games"
+      ></video-game-db-loading-spinner>
+    </ng-container>
+    <ng-template #games>
+      <ng-container *ngFor="let game of GameData.games">
+        <div class="game" (click)="openGameDetails(game.id)">
+          <div class="game-thumb-container">
             <img
-              *ngFor="let gamePlatform of game.parent_platforms"
-              class="game-platform"
-              src="assets/images/platforms/{{ gamePlatform.platform.slug }}.svg"
-              alt="{{ gamePlatform.platform.slug }}"
+              *ngIf="game.background_image"
+              [src]="game.background_image"
+              alt="thumbnail"
+              class="game-thumbnail"
             />
+            <p *ngIf="!game.background_image">No image</p>
+          </div>
+          <div class="game-description">
+            <p class="game-name">{{ game.name }}</p>
+            <div class="game-platforms">
+              <img
+                *ngFor="let gamePlatform of game.parent_platforms"
+                class="game-platform"
+                src="assets/images/platforms/{{
+                  gamePlatform.platform.slug
+                }}.svg"
+                alt="{{ gamePlatform.platform.slug }}"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </ng-container>
+      </ng-container>
 
-    <mat-paginator
-      [length]="count$ | async"
-      [pageSize]="pageSize"
-      [pageIndex]="pageIndex"
-      (page)="onPageChange($event)"
-    >
-    </mat-paginator>
-  </ng-template>
-</div>
+      <mat-paginator
+        [length]="GameData.count"
+        [pageSize]="pageSize"
+        [pageIndex]="pageIndex"
+        (page)="onPageChange($event)"
+      >
+      </mat-paginator>
+    </ng-template>
+  </div>
+</section>
