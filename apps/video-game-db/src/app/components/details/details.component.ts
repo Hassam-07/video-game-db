@@ -14,6 +14,10 @@ import {
   selectGameDetails,
 } from '../../+state/game-detail/game-detail.selectors';
 import { GameDetailPageActions } from '../../+state/game-detail/game-detail.actions';
+import {
+  selectRouteParam,
+  selectRouteParams,
+} from '../../+state/router/router.selectors';
 
 @Component({
   selector: 'video-game-db-details',
@@ -27,16 +31,17 @@ export class DetailsComponent implements OnInit, OnDestroy {
   routeSub!: Subscription;
   gameSub!: Subscription;
   gameDetailsView$!: Observable<any>;
+  params$!: Observable<any>;
 
   constructor(private activatedRoute: ActivatedRoute, private store: Store) {}
 
   ngOnInit(): void {
-    this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
-      this.gameId = params['id'];
-      this.store.dispatch(
-        GameDetailPageActions.loadGameDetails({ id: this.gameId })
-      );
-    });
+    // this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
+    //   this.gameId = params['id'];
+    //   this.store.dispatch(
+    //     GameDetailPageActions.loadGameDetails({ id: this.gameId })
+    //   );
+    // });
     this.gameDetailsView$ = this.store.select(selectGameDetailView);
   }
 

@@ -1,16 +1,29 @@
 import { Injectable } from '@angular/core';
-import { Actions, createEffect, ofType } from '@ngrx/effects';
-import { catchError, map, concatMap, switchMap, tap } from 'rxjs/operators';
+import { Actions, concatLatestFrom, createEffect, ofType } from '@ngrx/effects';
+import {
+  catchError,
+  map,
+  concatMap,
+  switchMap,
+  tap,
+  filter,
+} from 'rxjs/operators';
 import { Observable, EMPTY, of } from 'rxjs';
+import {
+  ROUTER_NAVIGATED,
+  ROUTER_NAVIGATION,
+  RouterNavigatedAction,
+} from '@ngrx/router-store';
 import {
   GameDetailApiActions,
   GameDetailPageActions,
 } from './game-detail.actions';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Store } from '@ngrx/store';
+import { Store, select } from '@ngrx/store';
 import { Game } from '../../models';
 import { HttpService } from '../../services/http.service';
 import { GameApiActions } from '../media-list/media-list.actions';
+import { selectRouteParams } from '../router/router.selectors';
 
 @Injectable()
 export class GameDetailEffects {
@@ -47,5 +60,23 @@ export class GameDetailEffects {
         })
       ),
     { dispatch: false }
+  );
+
+  getGameDetails$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      concatLatestFrom(() => this.store.select(selectRouteParams)),
+      tap(([action, params]) => {
+        console.log('Route Params:', params);
+      }),
+      map(([action, params]) => ({
+        action,
+        gameId: params['id'],
+      })),
+      switchMap(({ action, gameId }) => {
+        // Make sure to import RouterStateUrl and adjust this type accordingly
+        return of(GameDetailPageActions.loadGameDetails({ id: gameId }));
+      })
+    )
   );
 }

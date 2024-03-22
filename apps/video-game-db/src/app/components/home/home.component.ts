@@ -34,19 +34,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   private routeSub!: Subscription;
   private gameSub!: Subscription;
   private sortSub!: Subscription;
-  games$!: Observable<Game[]>;
-  isLoading$!: Observable<boolean>;
-  public sortOrder$!: Observable<string>;
-  public pageIndex = 0;
-  public pageSize = 20;
-
-  pageIndex$!: Observable<number>;
-  public pageSize$!: Observable<number>;
-  public nextPageUrl$!: Observable<string | null>;
-  public previousPageUrl$!: Observable<string | null>;
-  count$!: Observable<number>;
   gameViewState$!: Observable<any>;
-
   constructor(
     private httpService: HttpService,
     private store: Store,
@@ -55,14 +43,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.games$ = this.store.select(selectGames);
-    this.isLoading$ = this.store.select(selectLoading);
-    this.sortOrder$ = this.store.pipe(select(selectSortOrder));
     this.gameViewState$ = this.store.select(selectGameView);
-    // this.pageIndex$.subscribe((cat) => {
-    //   console.log('Page Index component:', cat);
-    // });
-    this.count$ = this.store.select(selectCount);
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
       if (params['game-search']) {
         this.searchGames('metacrit', params['game-search']);
@@ -74,12 +55,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         );
       }
     });
-    console.log('games', this.games$);
   }
 
   onPageChange(event: PageEvent): void {
     const pageIndex = event.pageIndex;
-    this.pageIndex = pageIndex;
+    // this.pageIndex = pageIndex;
+    this.gameViewState$.subscribe((gameState) => {
+      gameState.pageIndex = pageIndex;
+    });
     const pageSize = event.pageSize;
 
     this.activatedRoute.paramMap
@@ -89,8 +72,7 @@ export class HomeComponent implements OnInit, OnDestroy {
           this.router.navigate([], {
             relativeTo: this.activatedRoute,
             queryParams: {
-              page: this.pageIndex + 1,
-              gameSearch: searchParam,
+              page: pageIndex + 1,
             },
             queryParamsHandling: 'merge',
           });
