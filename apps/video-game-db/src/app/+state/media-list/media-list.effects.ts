@@ -1,12 +1,27 @@
 import { Injectable, inject } from '@angular/core';
 import { createEffect, Actions, ofType, concatLatestFrom } from '@ngrx/effects';
-import { switchMap, catchError, of, map, mergeMap, tap } from 'rxjs';
+import {
+  switchMap,
+  catchError,
+  of,
+  map,
+  mergeMap,
+  tap,
+  filter,
+  withLatestFrom,
+} from 'rxjs';
 import { GameApiActions, GamePageActions } from './media-list.actions';
 import { HttpService } from '../../services/http.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { APIResponse, Game } from '../../models';
-import { selectCount } from './media-list.selectors';
+import {
+  selectCount,
+  selectPageIndex,
+  selectPageSize,
+} from './media-list.selectors';
 import { Store, select } from '@ngrx/store';
+import { selectRouteParams } from '../router/router.selectors';
+import { ROUTER_NAVIGATION, RouterNavigatedAction } from '@ngrx/router-store';
 
 @Injectable()
 export class MediaListEffects {
@@ -93,6 +108,110 @@ export class MediaListEffects {
           catchError((error) => of(GameApiActions.sortGamesFailure({ error })))
         )
       )
+    )
+  );
+
+  searchRouter$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      filter((action: RouterNavigatedAction) => {
+        return action.payload.routerState.url.startsWith('/search');
+      }),
+      concatLatestFrom(() => this.store.select(selectRouteParams)),
+      tap(([action, routeParams]) => {
+        console.log('Route Params:', routeParams);
+      }),
+      filter(
+        ([action, routeParams]) => routeParams['game-search'] !== undefined
+      ),
+      mergeMap(([action, routeParams]) => {
+        return of(
+          GamePageActions.searchGames({
+            sort: 'metacrit',
+            search: routeParams['game-search'],
+          })
+        );
+      })
+    )
+  );
+
+  loadRouter$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      filter((action: RouterNavigatedAction) => {
+        return action.payload.routerState.url.startsWith('/');
+      }),
+      concatLatestFrom(() => this.store.select(selectRouteParams)),
+      tap(([action, routeParams]) => {
+        console.log('Route Params:', routeParams);
+      }),
+      filter(
+        ([action, routeParams]) => routeParams['game-search'] === undefined
+      ),
+      filter(
+        ([action, routeParams]) =>
+          !action.payload.routerState.url.includes('/details')
+      ),
+      mergeMap(([action, routeParams]) => {
+        return of(GamePageActions.loadGames({ ordering: 'metacrit' }));
+      })
+    )
+  );
+  routerPageChangingBySearch$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      filter((action: RouterNavigatedAction) => {
+        return action.payload.routerState.url.startsWith('/search');
+      }),
+      withLatestFrom(
+        this.store.select(selectRouteParams),
+        this.store.pipe(select(selectPageIndex)),
+        this.store.pipe(select(selectPageSize))
+      ),
+      tap(([action, routeParams, pageIndex, pageSize]) => {
+        console.log('Route Params:', routeParams);
+        console.log('PageIndex:', pageIndex);
+        console.log('PageSize:', pageSize);
+      }),
+      mergeMap(([action, routeParams, pageIndex, pageSize]) => {
+        const searchParam = routeParams['game-search'] as string;
+        return of(
+          GamePageActions.pageChanging({
+            ordering: 'metacrit',
+            page: pageIndex + 1,
+            pageSize: pageSize,
+            search: searchParam,
+          })
+        );
+      })
+    )
+  );
+
+  routerPageChanging$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      filter((action: RouterNavigatedAction) => {
+        return action.payload.routerState.url.startsWith('/');
+      }),
+      withLatestFrom(
+        this.store.select(selectRouteParams),
+        this.store.pipe(select(selectPageIndex)),
+        this.store.pipe(select(selectPageSize))
+      ),
+      tap(([action, routeParams, pageIndex, pageSize]) => {
+        console.log('Route Params:', routeParams);
+        console.log('PageIndex:', pageIndex);
+        console.log('PageSize:', pageSize);
+      }),
+      mergeMap(([action, routeParams, pageIndex, pageSize]) => {
+        return of(
+          GamePageActions.pageChanging({
+            ordering: 'metacrit',
+            page: pageIndex + 1,
+            pageSize: pageSize,
+          })
+        );
+      })
     )
   );
 

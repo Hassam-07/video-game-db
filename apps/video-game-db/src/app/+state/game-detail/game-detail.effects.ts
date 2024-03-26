@@ -65,6 +65,9 @@ export class GameDetailEffects {
   getGameDetails$ = createEffect(() =>
     this.actions$.pipe(
       ofType(ROUTER_NAVIGATION),
+      filter((action: RouterNavigatedAction) => {
+        return action.payload.routerState.url.startsWith('/details');
+      }),
       concatLatestFrom(() => this.store.select(selectRouteParams)),
       tap(([action, params]) => {
         console.log('Route Params:', params);
@@ -74,7 +77,6 @@ export class GameDetailEffects {
         gameId: params['id'],
       })),
       switchMap(({ action, gameId }) => {
-        // Make sure to import RouterStateUrl and adjust this type accordingly
         return of(GameDetailPageActions.loadGameDetails({ id: gameId }));
       })
     )

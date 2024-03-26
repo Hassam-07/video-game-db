@@ -44,17 +44,17 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.gameViewState$ = this.store.select(selectGameView);
-    this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
-      if (params['game-search']) {
-        this.searchGames('metacrit', params['game-search']);
-      } else {
-        this.store.dispatch(
-          GamePageActions.loadGames({
-            ordering: 'metacrit',
-          })
-        );
-      }
-    });
+    // this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
+    //   if (params['game-search']) {
+    //     this.searchGames('metacrit', params['game-search']);
+    //   } else {
+    //     this.store.dispatch(
+    //       GamePageActions.loadGames({
+    //         ordering: 'metacrit',
+    //       })
+    //     );
+    //   }
+    // });
   }
 
   onPageChange(event: PageEvent): void {
@@ -65,36 +65,36 @@ export class HomeComponent implements OnInit, OnDestroy {
     });
     const pageSize = event.pageSize;
 
-    this.activatedRoute.paramMap
-      .pipe(map((params) => params.get('game-search')))
-      .subscribe((searchParam) => {
-        if (searchParam) {
-          this.router.navigate([], {
-            relativeTo: this.activatedRoute,
-            queryParams: {
-              page: pageIndex + 1,
-            },
-            queryParamsHandling: 'merge',
-          });
+    // this.activatedRoute.paramMap
+    //   .pipe(map((params) => params.get('game-search')))
+    //   .subscribe((searchParam) => {
+    //     if (searchParam) {
+    //       // this.router.navigate([], {
+    //       //   relativeTo: this.activatedRoute,
+    //       //   queryParams: {
+    //       //     page: pageIndex + 1,
+    //       //   },
+    //       //   queryParamsHandling: 'merge',
+    //       // });
 
-          this.store.dispatch(
-            GamePageActions.pageChanging({
-              ordering: 'metacrit',
-              page: pageIndex + 1,
-              pageSize: pageSize,
-              search: searchParam,
-            })
-          );
-        } else {
-          this.store.dispatch(
-            GamePageActions.pageChanging({
-              ordering: 'metacrit',
-              page: pageIndex + 1,
-              pageSize: pageSize,
-            })
-          );
-        }
-      });
+    //       this.store.dispatch(
+    //         GamePageActions.pageChanging({
+    //           ordering: 'metacrit',
+    //           page: pageIndex + 1,
+    //           pageSize: pageSize,
+    //           search: searchParam,
+    //         })
+    //       );
+    //     } else {
+    //       this.store.dispatch(
+    //         GamePageActions.pageChanging({
+    //           ordering: 'metacrit',
+    //           page: pageIndex + 1,
+    //           pageSize: pageSize,
+    //         })
+    //       );
+    //     }
+    //   });
   }
 
   searchGames(sort: string, search?: string): void {
