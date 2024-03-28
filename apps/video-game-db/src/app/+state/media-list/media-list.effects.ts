@@ -9,6 +9,7 @@ import {
   tap,
   filter,
   withLatestFrom,
+  distinctUntilChanged,
 } from 'rxjs';
 import { GameApiActions, GamePageActions } from './media-list.actions';
 import { HttpService } from '../../services/http.service';
@@ -20,8 +21,16 @@ import {
   selectPageSize,
 } from './media-list.selectors';
 import { Store, select } from '@ngrx/store';
-import { selectRouteParams } from '../router/router.selectors';
-import { ROUTER_NAVIGATION, RouterNavigatedAction } from '@ngrx/router-store';
+import {
+  selectQueryParams,
+  selectRouteParams,
+  selectUrl,
+} from '../router/router.selectors';
+import {
+  ROUTER_NAVIGATED,
+  ROUTER_NAVIGATION,
+  RouterNavigatedAction,
+} from '@ngrx/router-store';
 
 @Injectable()
 export class MediaListEffects {
@@ -54,24 +63,6 @@ export class MediaListEffects {
       ofType(GamePageActions.setCount),
       map(({ count }) => GameApiActions.setCountSuccess({ count })),
       catchError((error) => of(GameApiActions.setCountFailure({ error })))
-    )
-  );
-  loadGamesByPage$ = createEffect(() =>
-    this.actions$.pipe(
-      ofType(GamePageActions.pageChanging),
-      switchMap(({ ordering, page, pageSize, search }) =>
-        this.httpService.getGameList(ordering, page, pageSize, search).pipe(
-          map((response) => {
-            return GameApiActions.pageChangingSuccess({
-              games: response.results,
-              count: response.count,
-            });
-          }),
-          catchError((error) =>
-            of(GameApiActions.pageChangingFailure({ error }))
-          )
-        )
-      )
     )
   );
 
@@ -146,10 +137,8 @@ export class MediaListEffects {
         console.log('Route Params:', routeParams);
       }),
       filter(
-        ([action, routeParams]) => routeParams['game-search'] === undefined
-      ),
-      filter(
         ([action, routeParams]) =>
+          routeParams['game-search'] === undefined &&
           !action.payload.routerState.url.includes('/details')
       ),
       mergeMap(([action, routeParams]) => {
@@ -157,63 +146,163 @@ export class MediaListEffects {
       })
     )
   );
+
   routerPageChangingBySearch$ = createEffect(() =>
     this.actions$.pipe(
       ofType(ROUTER_NAVIGATION),
       filter((action: RouterNavigatedAction) => {
         return action.payload.routerState.url.startsWith('/search');
       }),
-      withLatestFrom(
-        this.store.select(selectRouteParams),
-        this.store.pipe(select(selectPageIndex)),
-        this.store.pipe(select(selectPageSize))
-      ),
-      tap(([action, routeParams, pageIndex, pageSize]) => {
-        console.log('Route Params:', routeParams);
-        console.log('PageIndex:', pageIndex);
-        console.log('PageSize:', pageSize);
+      concatLatestFrom(() => [
+        this.store.pipe(select(selectRouteParams)),
+        this.store.select(selectPageIndex),
+        this.store.select(selectPageSize),
+      ]),
+      filter(([action, routeParams]) => {
+        return !!routeParams['page'];
       }),
-      mergeMap(([action, routeParams, pageIndex, pageSize]) => {
-        const searchParam = routeParams['game-search'] as string;
-        return of(
-          GamePageActions.pageChanging({
-            ordering: 'metacrit',
-            page: pageIndex + 1,
-            pageSize: pageSize,
-            search: searchParam,
-          })
-        );
+      distinctUntilChanged(([, prevRouteParams], [, currRouteParams]) => {
+        return prevRouteParams['page'] === currRouteParams['page'];
+      }),
+      mergeMap(([action, routeParams, page_size]) => {
+        const currentPage = routeParams['page'] ? +routeParams['page'] : 1;
+        const searchParam = routeParams['game-search'];
+        console.log('router search', searchParam);
+        if (searchParam) {
+          return of(
+            GamePageActions.pageChanging({
+              ordering: 'metacrit',
+              pageIndex: currentPage,
+              pageSize: page_size,
+              search: searchParam,
+            })
+          );
+        } else {
+          return of(
+            GamePageActions.pageChanging({
+              ordering: 'metacrit',
+              pageIndex: currentPage,
+              pageSize: page_size,
+            })
+          );
+        }
       })
     )
   );
 
-  routerPageChanging$ = createEffect(() =>
+  // routerPageChanging$ = createEffect(() =>
+  //   this.actions$.pipe(
+  //     ofType(ROUTER_NAVIGATION),
+  //     filter((action: RouterNavigatedAction) => {
+  //       return action.payload.routerState.url.startsWith('/');
+  //     }),
+  //     concatLatestFrom(() => [
+  //       this.store.pipe(select(selectRouteParams)),
+  //       // this.store.select(selectPageIndex),
+  //       this.store.select(selectPageSize),
+  //     ]),
+  //     filter(([action, routeParams]) => {
+  //       return !!routeParams['page'];
+  //     }),
+  //     distinctUntilChanged(([, prevRouteParams], [, currRouteParams]) => {
+  //       return prevRouteParams['page'] === currRouteParams['page'];
+  //     }),
+  //     mergeMap(([action, routeParams, page_size]) => {
+  //       const currentPage = routeParams['page'] ? +routeParams['page'] : 1;
+  //       return of(
+  //         GamePageActions.pageChanging({
+  //           ordering: 'metacrit',
+  //           pageIndex: currentPage,
+  //           pageSize: page_size,
+  //         })
+  //       );
+  //     })
+  //   )
+  // );
+
+  loadGamesOnSearchPage$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(ROUTER_NAVIGATION),
-      filter((action: RouterNavigatedAction) => {
-        return action.payload.routerState.url.startsWith('/');
-      }),
-      withLatestFrom(
-        this.store.select(selectRouteParams),
+      ofType(ROUTER_NAVIGATED, GamePageActions.pageChanging),
+      concatLatestFrom(() => [
+        this.store.pipe(select(selectUrl)),
+        this.store.pipe(select(selectRouteParams)),
         this.store.pipe(select(selectPageIndex)),
-        this.store.pipe(select(selectPageSize))
+        this.store.pipe(select(selectPageSize)),
+      ]),
+      filter(
+        ([, url, params, pageIndex, pageSize]) =>
+          url.includes('search') && params['game-search'] !== undefined
       ),
-      tap(([action, routeParams, pageIndex, pageSize]) => {
-        console.log('Route Params:', routeParams);
-        console.log('PageIndex:', pageIndex);
-        console.log('PageSize:', pageSize);
-      }),
-      mergeMap(([action, routeParams, pageIndex, pageSize]) => {
-        return of(
-          GamePageActions.pageChanging({
-            ordering: 'metacrit',
-            page: pageIndex + 1,
-            pageSize: pageSize,
-          })
+      switchMap(([, , params, page, pageSize]) => {
+        const search = params['game-search'];
+        const ordering = 'metacrit';
+        return this.httpService
+          .getGameList(ordering, page, pageSize, search)
+          .pipe(
+            map((response) => {
+              return GameApiActions.pageChangingSuccess({
+                games: response.results,
+                count: response.count,
+              });
+            }),
+            catchError((error) =>
+              of(GameApiActions.pageChangingFailure({ error }))
+            )
+          );
+      })
+    )
+  );
+
+  loadGamesByPage$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(GamePageActions.pageChanging),
+      //     filter((action: RouterNavigatedAction) => {
+      //       return action.payload.routerState.url.startsWith('/');
+      //     }),
+      concatLatestFrom(() => [
+        this.store.pipe(select(selectPageIndex)),
+        this.store.pipe(select(selectPageSize)),
+      ]),
+      switchMap(([, page, pageSize]) => {
+        const ordering = 'metacrit';
+        return this.httpService.getGameList(ordering, page, pageSize).pipe(
+          map((response) => {
+            return GameApiActions.pageChangingSuccess({
+              games: response.results,
+              count: response.count,
+            });
+          }),
+          catchError((error) =>
+            of(GameApiActions.pageChangingFailure({ error }))
+          )
         );
       })
     )
   );
+  // navigateToPage$ = createEffect(
+  //   () =>
+  //     this.actions$.pipe(
+  //       ofType(ROUTER_NAVIGATED),
+  //       tap((action: RouterNavigatedAction) => {
+  //         const { search } = action.payload.routerState.root.params;
+  //         if (search) {
+  //           return GamePageActions.pageChanging({
+  //             ordering: 'metacrit',
+  //             page: 1,
+  //             pageSize: 20,
+  //             search,
+  //           });
+  //         } else {
+  //           return GamePageActions.pageChanging({
+  //             ordering: 'metacrit',
+  //             page: 1,
+  //             pageSize: 20,
+  //           });
+  //         }
+  //       })
+  //     ),
+  //   { dispatch: true }
+  // );
 
   handleError$ = createEffect(
     () =>

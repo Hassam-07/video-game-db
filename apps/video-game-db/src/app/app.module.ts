@@ -63,7 +63,7 @@ import { CustomSerializer } from './+state/router/custom-serializer';
     StoreModule.forRoot({ router: routerReducer }),
     StoreModule.forFeature(videoGame.GAME_FEATURE_KEY, videoGame.gameReducer),
     EffectsModule.forFeature([MediaListEffects, GameDetailEffects]),
-    EffectsModule.forRoot([MediaListEffects]),
+    EffectsModule.forRoot([]),
     StoreDevtoolsModule.instrument({ maxAge: 25 }),
     StoreRouterConnectingModule.forRoot({
       routerState: RouterState.Minimal,

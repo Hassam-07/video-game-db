@@ -17,10 +17,7 @@ export const selectLoading = createSelector(
   selectGameState,
   (state: GameState) => state.loading
 );
-// export const selectDetailLoading = createSelector(
-//   selectGameState,
-//   (state: GameState) => state.details.loading
-// );
+
 export const selectSortOrder = createSelector(
   selectGameState,
   (state: GameState) => state.sortOrder
@@ -30,10 +27,7 @@ export const selectError = createSelector(
   selectGameState,
   (state: GameState) => state.error
 );
-// export const selectGameRating = createSelector(
-//   selectGameState,
-//   (state: GameState) => state.gameRating
-// );
+
 export const selectPageSize = createSelector(
   selectGameState,
   (state) => state.pageSize
@@ -47,29 +41,6 @@ export const selectCount = createSelector(
   selectGameState,
   (state: GameState) => state.count
 );
-
-// export const selectGameDetails = createSelector(
-//   selectGameState,
-//   (state: GameState) => {
-//     console.log(state.details);
-//     return state.details.game;
-//   }
-// );
-
-// export const selectGameRatingColor = createSelector(
-//   selectGameRating,
-//   (rating) => {
-//     if (rating > 75) {
-//       return '#5ee432';
-//     } else if (rating > 50) {
-//       return '#fffa50';
-//     } else if (rating > 30) {
-//       return '#f7aa38';
-//     } else {
-//       return '#ef4655';
-//     }
-//   }
-// );
 
 export const selectGameView = createSelector(
   selectGames,

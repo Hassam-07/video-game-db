@@ -15,7 +15,7 @@ export const GamePageActions = createActionGroup({
     'Set Page Size': props<{ pageSize: number }>(),
     'Page changing': props<{
       ordering: string;
-      page: number;
+      pageIndex: number;
       pageSize: number;
       search?: string;
     }>(),

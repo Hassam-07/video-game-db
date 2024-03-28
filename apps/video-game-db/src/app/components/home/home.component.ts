@@ -60,41 +60,18 @@ export class HomeComponent implements OnInit, OnDestroy {
   onPageChange(event: PageEvent): void {
     const pageIndex = event.pageIndex;
     // this.pageIndex = pageIndex;
-    this.gameViewState$.subscribe((gameState) => {
-      gameState.pageIndex = pageIndex;
-    });
+    // this.gameViewState$.subscribe((gameState) => {
+    //   gameState.pageIndex = pageIndex;
+    //   console.log('component pageIndex', pageIndex);
+    // });
     const pageSize = event.pageSize;
-
-    // this.activatedRoute.paramMap
-    //   .pipe(map((params) => params.get('game-search')))
-    //   .subscribe((searchParam) => {
-    //     if (searchParam) {
-    //       // this.router.navigate([], {
-    //       //   relativeTo: this.activatedRoute,
-    //       //   queryParams: {
-    //       //     page: pageIndex + 1,
-    //       //   },
-    //       //   queryParamsHandling: 'merge',
-    //       // });
-
-    //       this.store.dispatch(
-    //         GamePageActions.pageChanging({
-    //           ordering: 'metacrit',
-    //           page: pageIndex + 1,
-    //           pageSize: pageSize,
-    //           search: searchParam,
-    //         })
-    //       );
-    //     } else {
-    //       this.store.dispatch(
-    //         GamePageActions.pageChanging({
-    //           ordering: 'metacrit',
-    //           page: pageIndex + 1,
-    //           pageSize: pageSize,
-    //         })
-    //       );
-    //     }
-    //   });
+    this.store.dispatch(
+      GamePageActions.pageChanging({
+        ordering: 'metacrit',
+        pageIndex: pageIndex,
+        pageSize: pageSize,
+      })
+    );
   }
 
   searchGames(sort: string, search?: string): void {

@@ -11,10 +11,7 @@ export interface GameState {
   loading: boolean;
   error: any;
   sortOrder: string;
-  gameRating: number;
   pageIndex: number;
-  nextPageUrl: string | null;
-  previousPageUrl: string | null;
   count: number;
   pageSize: number;
 }
@@ -24,10 +21,7 @@ export const initialState: GameState = {
   loading: false,
   error: null,
   sortOrder: '',
-  gameRating: 0,
   pageIndex: 0,
-  nextPageUrl: null,
-  previousPageUrl: null,
   count: 0,
   pageSize: 20,
 };
@@ -90,32 +84,6 @@ export const gameReducer = createReducer(
     loading: false,
     error,
   })),
-  // on(GamePageActions.loadGameDetails, (state) => ({
-  //   ...state,
-  //   loading: true,
-  //   details: {
-  //     ...state.details,
-  //     loading: true,
-  //     error: null,
-  //   },
-  // })),
-  // on(GameApiActions.gameDetailsLoadedSuccess, (state, { game }) => ({
-  //   ...state,
-  //   details: {
-  //     ...state.details,
-  //     game,
-  //     loading: false,
-  //   },
-  //   gameRating: game.metacritic,
-  // })),
-  // on(GameApiActions.gameDetailsLoadFailed, (state, { error }) => ({
-  //   ...state,
-  //   details: {
-  //     ...state.details,
-  //     error,
-  //     loading: false,
-  //   },
-  // })),
   on(GamePageActions.setCount, (state) => ({
     ...state,
   })),
@@ -123,10 +91,10 @@ export const gameReducer = createReducer(
     ...state,
     count,
   })),
-  on(GamePageActions.pageChanging, (state, { page, pageSize }) => ({
+  on(GamePageActions.pageChanging, (state, { pageIndex, pageSize }) => ({
     ...state,
     loading: true,
-    page: page,
+    pageIndex: pageIndex,
     pageSize: pageSize,
   })),
   on(GameApiActions.pageChangingSuccess, (state, { games, count }) => ({

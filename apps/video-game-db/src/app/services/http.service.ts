@@ -13,7 +13,7 @@ export class HttpService {
   getGameList(
     ordering: string,
     page: number,
-    page_size: number,
+    page_size = 20,
     search?: string
   ): Observable<APIResponse<Game>> {
     let params = new HttpParams()
